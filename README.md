@@ -1,4 +1,9 @@
 # deepchar/entities
 Transliteration for translation of named entities
 
-- [Y.Merhav, S.Ash et al. (2018): Design Challenges in Named Entity Transliteration](https://arxiv.org/pdf/1808.02563.pdf)
+
+## References
+
+> *Design Challenges in Named Entity Transliteration* 2018  [arXiv](https://arxiv.org/abs/1808.02563)
+> Yuval Merhav, Stephen Ash  
+> Amazon Alexa AI, Amazon AWS AI
