@@ -1,6 +1,5 @@
 # deepchar/entities
-Transliteration for translation of named entities
-
+[Transliteration](https://deepchar.github.io/) for translation of named entities
 
 ## References
 
