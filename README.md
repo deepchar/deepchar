@@ -32,7 +32,7 @@ As a future work can be considered
  - Evaluate models such as 
     - character-based NMT [(Ling et al., 2015)](https://arxiv.org/pdf/1808.02563.pdf)
     - convolutional Seq2Seq [(Gehring et al., 2017)](https://arxiv.org/pdf/1705.03122.pdf)<br   />
- \*for named entity transliteration task.\*
+ for named entity transliteration task.
  
 
 
