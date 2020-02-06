@@ -5,7 +5,9 @@
 The [transliteration](https://deepchar.github.io/) for translation of [named entities](https://en.wikipedia.org/wiki/Named_entity) is a different task than the transliteration from informal variants back into their canonical forms.  Instead of many inputs mapping to one output, one input will map to many outputs.
 
 For example:
+
 1. EN-AM
+
 ````lubliniec````->````լյուբլինիեց````<br/>
 ````lubliniec````->````լուբլինիեց````<br/>
 ````lubliniec````->````լյուբլինիեք````<br/>
@@ -13,7 +15,9 @@ For example:
 ````ortman````->````օրթման````<br/>
 ````ortman````->````օրտման````<br/>
 ````ortman````->````օրթմեն````<br/>
+
 2. EN-RU
+
 
 TODO: examples
 
