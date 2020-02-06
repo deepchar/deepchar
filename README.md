@@ -4,6 +4,10 @@
 
 The [transliteration](https://deepchar.github.io/) for translation of [named entities](https://en.wikipedia.org/wiki/Named_entity) is a different task than the transliteration from informal variants back into their canonical forms.  Instead of many inputs mapping to one output, one input will map to many outputs.
 
+````lubliniec````->	````լյուբլինիեց````
+````lubliniec````->````լուբլինիեց````
+````lubliniec````->````լյուբլինիեք````
+
 TODO: examples
 
 ### Our approach
