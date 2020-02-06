@@ -38,21 +38,26 @@ For example:
 
 ### Our approach
 
-TODO
+We use an approach similar to those commonly used for translation and also our main transliteration project: **parallel corpora**.
 
-#### Datasets
+We have trained initial models with two different architectures, **seq2seq** and **tensor2tensor**
 
-TODO
+The **parallel corpora** have XK lines per script pair?.
 
-#### Benchmarks
 
-TODO
-
-#### Results
+### Datasets
 
 TODO
 
-#### Future work
+### Benchmarks
+
+TODO
+
+### Results
+
+TODO
+
+### Future work
 
 As a future work can be considered
  - Creating models for different combination of source and target languages, i.e. EN->RU, RU->EN, AM->RU etc.
