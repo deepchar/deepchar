@@ -6,13 +6,13 @@ The [transliteration](https://deepchar.github.io/) for translation of [named ent
 
 For example:
 
-1. EN-AM
+1.EN-AM
 
 ````ortman````->````օրթման````<br/>
 ````ortman````->````օրտման````<br/>
 ````ortman````->````օրթմեն````<br/>
 
-2. EN-RU
+2.EN-RU
 
 ````denswil````->````д е н с в и л````<br/>
 ````denswil````->````д е н с у и л````<br/>
@@ -20,21 +20,21 @@ For example:
 
 3.EN-DE
 
+````olivier````->````olivier````<br/>
+````olivier````->````oliwier````<br/>
+````olivier````->````ölivier````<br/>
 
-
-4. EN-EL
+4.EN-EL
 
 ````winstone````->````ουίνστον````<br/>
 ````winstone````->````γουίνστον````<br/>
 ````winstone````->````ουάινστον````<br/>
 
-5. EN-FA
+5.EN-FA
 
 ````plumlee````->````پلوملی````<br/>
 ````plumlee````->````پلاملی````<br/>
 ````plumlee````->````پلومولی````<br/>
-
-TODO: examples
 
 ### Our approach
 
