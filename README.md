@@ -66,9 +66,8 @@ We extracted raw data, learned word alignment and created a dataset of multi-tok
 | EN-HY  | 39,707  | 25,412  | 152  | 107  |
 | EN-RU  | 179,853  | 143,882  | 278  | 124  |
 | EN-EL  | 37,505  | 30,004  | 170  | 97  |
-| EN-FA  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| EN-DE  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-
+| EN-FA  | 78,663  | 62,930  | 170  | 117  |
+| EN-DE  | 547,033  | 437,626  | 350  | 363  |
 
 
 ## Benchmarks
