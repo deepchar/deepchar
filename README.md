@@ -62,7 +62,7 @@ Dataset creation is one of the most expensive tasks in [NLP](https://en.wikipedi
 We extracted raw data, learned word alignment and created a dataset of multi-token name pairs. As far as the pronunciation of a last name is independent of the previous tokens we stick with [Yuval Merhav, Stephen Ash et al. 2018](https://github.com/steveash/NETransliteration-COLING2018) approach and represent **parallel corpora** as a single token pair. 
 
 | Dataset  | Total size | Training size  | Source Alphabet size | Target Alphabet size | 
-| ------------- | ------------- | ------------- | ------------- | ------------- |
+| :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
 | EN-HY  | 39,707  | 25,412  | 152  | 107  |
 | EN-RU  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | EN-EL  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
