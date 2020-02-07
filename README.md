@@ -4,39 +4,55 @@
 
 The [transliteration](https://deepchar.github.io/) for translation of [named entities](https://en.wikipedia.org/wiki/Named_entity) is a different task than the transliteration from informal variants back into their canonical forms.  Instead of many inputs mapping to one output, one input will map to many outputs.
 
-For example:
+## Simple
+Armn: Հովիկ Աբրահամյան => en: Hovik Abrahamyan, Hovik Abrahamian
+Armn: Հրազդան => en: Hrazdan
+Armn: Հրազդան => ru: Раздан
+Armn: Հովիկ Աբրահամյան => Cyrl: ru: ...
 
-1.EN-AM
+Some names can have dozens of versions into one script:
 
-````ortman````->````օրթման````<br/>
-````ortman````->````օրտման````<br/>
-````ortman````->````օրթմեն````<br/>
+Armn: Շողիկ Հովհաննես Ցոլակյան => en: ........
 
-2.EN-RU
 
-````denswil````->````д е н с в и л````<br/>
-````denswil````->````д е н с у и л````<br/>
-````denswil````->````д е н с в и л ь````<br/>
+There are of course multiple languages per script.
 
-3.EN-DE
+Armn: Հովիկ Աբրահամյան => pl: Howik Abrahamian, Howik Abrahamjan
 
-````olivier````->````olivier````<br/>
-````olivier````->````oliwier````<br/>
-````olivier````->````ölivier````<br/>
 
-4.EN-EL
 
-````winstone````->````ουίνστον````<br/>
-````winstone````->````γουίνστον````<br/>
-````winstone````->````ουάινστον````<br/>
+Latn: John Smith =>
+  // Armn
+  hy: Ջոն Սմիթ,
+  // Cyrl
+  ru: Джон Смит,
+  sr: Џон Смит,
+  uk: Джон Сміт
+  kk:
+  ...
+  // Arab
+  fa: ...
+  ar: ...
 
-5.EN-FA
+Latn: SnapChat => ...
 
-````plumlee````->````پلوملی````<br/>
-````plumlee````->````پلاملی````<br/>
-````plumlee````->````پلومولی````<br/>
+## Multiple conversions
 
-### Our approach
+Armn: Հովիկ Աբրահամյան => Cyrl: ... => Ovik Abramyan
+Armn: Հրազդան => Cyrl: ... => Latn: Razdan
+Latn: Howard Hughes => Cyrl: Говард Хьюз => Armn: Գովարդ Խյուզ
+
+It could come back into the original script mangled:
+Latn: Howard Hughes => Cyrl: Говард Хьюз => Govard Khyuz
+
+Armn: Հովիկ Աբրահամյան => 
+
+## Within alphabets
+
+Müller => Müller, Mueller, Muller
+George Bush => George Bush, Corc Buş
+
+## Our approach
 
 We use an approach similar to those commonly used for translation and also our main transliteration project: **parallel corpora**.
 
@@ -45,19 +61,19 @@ We have trained initial models with two different architectures, **seq2seq** and
 The **parallel corpora** have XK lines per script pair?.
 
 
-### Datasets
+## Datasets
 
 TODO
 
-### Benchmarks
+## Benchmarks
 
 TODO
 
-### Results
+## Results
 
 TODO
 
-### Future work
+## Future work
 
 As a future work can be considered
  - Creating models for different combination of source and target languages, i.e. EN->RU, RU->EN, AM->RU etc.
