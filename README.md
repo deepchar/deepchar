@@ -7,14 +7,13 @@ The [transliteration](https://deepchar.github.io/) for translation of [named ent
 ### Types of name transliteration tasks:
 
 #### Simple
-Armn: Հովիկ Աբրահամյան => en: Hovik Abrahamyan, Hovik Abrahamian
-Armn: Հրազդան => en: Hrazdan
-Armn: Հրազդան => ru: Раздан
-Armn: Հովիկ Աբրահամյան => Cyrl: ru: ...
+````hy: Հովիկ Աբրահամյան````=>````en: Hovik Abrahamyan, Hovik Abrahamian, Hovig Abrahamyan````<br/>
+````hy: Հովիկ Աբրահամյան````=>````Cyrl: ru:Овик Абраамян, uk: Овік Абрамян````
+````hy: Հրազդան````=>````en: Hrazdan````<br/>
+````hy: Հրազդան````=>````ru: Раздан````<br/>
 
 Some names can have dozens of versions into one script:
-
-Armn: Շողիկ Հովհաննես Ցոլակյան => en: ........
+````hy: Շողիկ Հովհաննես Ցոլակյան````=>````en: ........````<br/>
 
 
 There are of course multiple languages per script.
