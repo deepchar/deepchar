@@ -80,7 +80,7 @@ As a benchmark we considered multilingal NLP pipeline [Polyglot](https://pypi.or
 Table below show results comparison Polyglot, Seq2Seq and Tensor on the given parallel corpora. Results of the [transliterate](https://pypi.org/project/transliterate/) library are not shown because it was very far below displayed ones.
 
 | Dataset  | Polyglot| Seq2Seq  | Tensor2Tensor | 
-| :-------------: | :-------------: | :-------------: |
+| :-------------: | :-------------: | :-------------: | :-------------: |
 | EN-HY  | 0.64  | 0.46  | 0.47  |
 | EN-RU  | 0.56  | 0.24  | 0.37  |
 | EN-EL  | 0.9  | 0.52  | 0.52  |
@@ -95,9 +95,8 @@ As a future work can be considered
  - Research model dependence on the lenght of named entities.
  - Evaluate models such as 
     - character-based NMT [(Ling et al., 2015)](https://arxiv.org/pdf/1808.02563.pdf)
-    - convolutional Seq2Seq [(Gehring et al., 2017)](https://arxiv.org/pdf/1705.03122.pdf)
- 
- for named entity transliteration task.
+    - convolutional Seq2Seq [(Gehring et al., 2017)](https://arxiv.org/pdf/1705.03122.pdf)<br/>
+    for named entity transliteration task.
  
 
 
