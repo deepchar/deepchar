@@ -19,7 +19,7 @@ Some names can have dozens of versions into one script:
 There are of course multiple languages per script.
 
 ````hy: Հովիկ Աբրահամյան````=>````la: pl: Howik Abrahamian, de: Howik Abrahamjan````<br/>
-````hy: Սերժ Սարգսյան````=>````la: en: Serzh Sargsyan, fr: Serge Sarkissian, hr:Serž Sargsjan, nl: Serzj Sarkisian````<br/>
+````hy: Սերժ Սարգսյան````=>````la: en: Serzh Sargsyan, fr: Serge Sarkissian, hr: Serž Sargsjan, nl: Serzj Sarkisian````<br/>
 
 
 ````la: John Smith````=>````hy: Ջոն Սմիթ````<br/>
@@ -32,20 +32,20 @@ There are of course multiple languages per script.
 
 #### Multiple conversions
 
-````hy: Հովիկ Աբրահամյան````=> ````cyrl: ru: Овик Абраамян````=>````la: en: Ovik Abramyan````<br/>
-````hy: Հրազդան````=>````cyrl: ru: Раздан````=>````la: en: Razdan````<br/>
-````la: en: Howard Hughes````=>````cyrl: ru: Говард Хьюз````=>````hy: Գովարդ Խյուզ````<br/>
+````hy: Հովիկ Աբրահամյան````=> ````ru: Овик Абраамян````=>````en: Ovik Abramyan````<br/>
+````hy: Հրազդան````=>````ru: Раздан````=>````en: Razdan````<br/>
+````en: Howard Hughes````=>````ru: Говард Хьюз````=>````hy: Գովարդ Խյուզ````<br/>
 
 
 It could come back into the original script mangled:
 
-````la: Howard Hughes````=>````cyrl: ru: Говард Хьюз````=>````la: en: Govard Khyuz````
-````hy: Հասմիկ Կուրղինյան````=>````cyrl: ru: Асмик Кургинян````=>````hy: Ասմիկ Կուրգինյան````<br/> 
+````la: Howard Hughes````=>````ru: Говард Хьюз````=>````en: Govard Khyuz````<br/>
+````hy: Հասմիկ Կուրղինյան````=>````ru: Асмик Кургинян````=>````hy: Ասմիկ Կուրգինյան````<br/> 
 
 #### Within alphabets
 
 ````en: Müller````=>````de: Müller, Mueller, Muller````<br/>
-````la: George Bush````=>````tr: George Bush, Corc Buş````<br/>
+````en: George Bush````=>````tr: George Bush, Corc Buş````<br/>
 
 ## Our approach
 
