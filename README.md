@@ -77,14 +77,14 @@ As a benchmark we considered multilingal NLP pipeline [Polyglot](https://pypi.or
 
 ## Results
 
-Table below show results comparison Polyglot, Seq2Seq and Tensor on the given parallel corpora. Results of the [transliterate](https://pypi.org/project/transliterate/) library are not shown because it was very far below displayed ones.
+Table below shows [WER (Word Error Rate)](https://en.wikipedia.org/wiki/Word_error_rate) comparison for Polyglot, Seq2Seq and Tensor on the given parallel corpora. Results of the [transliterate](https://pypi.org/project/transliterate/) library are not shown because they were very far below displayed ones.
 
 | Dataset  | Polyglot| Seq2Seq  | Tensor2Tensor | 
 | :-------------: | :-------------: | :-------------: | :-------------: |
-| EN-HY  | 0.64  | 0.46  | 0.47  |
-| EN-RU  | 0.56  | 0.24  | 0.37  |
-| EN-EL  | 0.9  | 0.52  | 0.52  |
-| EN-FA  | -  | 0.49  | -  |
+| EN-HY  | 0.64  | **0.46**  | 0.47  |
+| EN-RU  | 0.56  | **0.24**  | 0.37  |
+| EN-EL  | 0.9  | **0.52 | 0.52**  |
+| EN-FA  | -  | **0.49**  | -  |
 
 ## Future work
 
