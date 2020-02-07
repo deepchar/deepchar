@@ -73,7 +73,13 @@ Table below shows dataset statistics. Here EN means latin scripts not only Engli
 
 ## Benchmarks
 
-TODO
+| Dataset  | Polyglot | Seq2Seq  | Tensor2Tensor | 
+| :-------------: | :-------------: | :-------------: | :-------------: |
+| EN-HY  | 0.64  | 0.46  | 0.47  |
+| EN-RU  | 0.56  | 0.24  | 0.37  |
+| EN-EL  | 0.9  | 0.52  | 0.52  |
+| EN-FA  | -  | 0.49  | -  |
+
 
 ## Results
 
