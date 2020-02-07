@@ -13,17 +13,18 @@ The [transliteration](https://deepchar.github.io/) for translation of [named ent
 ````hy: Հրազդան````=>````ru: Раздан````<br/>
 
 Some names can have dozens of versions into one script:
+
 ````hy: Շողիկ Հովհաննեսի Ցոլակյան````=>````en: Shoghik Hovhannes Tsolakyan, Shokhik Hovhanes Tsolakian, Shoghig Hovhaness Tzolakyan````<br/>
 
 There are of course multiple languages per script.
 
-````hy: Հովիկ Աբրահամյան````=>````pl: Howik Abrahamian, de: Howik Abrahamjan````<br/>
-````hy: Սերժ Սարգսյան````=>````en: Serzh Sargsyan, fr: Serge Sarkissian, hr:Serž Sargsjan, nl: Serzj Sarkisian````<br/>
+````hy: Հովիկ Աբրահամյան````=>````la: pl: Howik Abrahamian, de: Howik Abrahamjan````<br/>
+````hy: Սերժ Սարգսյան````=>````la: en: Serzh Sargsyan, fr: Serge Sarkissian, hr:Serž Sargsjan, nl: Serzj Sarkisian````<br/>
 
 
 ````la: John Smith````=>````hy: Ջոն Սմիթ````<br/>
 ````la: John Smith````=>````cyrl: ru: Джон Смит, sr: Џон Смит, uk: Джон Сміт````<br/>
-````la: John Smith````=>````ar:  جون سميث, fa: جان اسمیت````<br/>  
+````la: John Smith````=>````ar: ar:  جون سميث, fa: جان اسمیت````<br/>  
   
 ````la: SnapChat````=>````hy: Սնապչատ````<br/>
 ````la: SnapChat````=>````cyrl: ru: Снепчат, bg: Снапчат````<br/>
@@ -31,19 +32,20 @@ There are of course multiple languages per script.
 
 #### Multiple conversions
 
-````hy: Հովիկ Աբրահամյան````=> cyrl: ... => Ovik Abramyan
-Armn: Հրազդան => Cyrl: ... => Latn: Razdan
-Latn: Howard Hughes => Cyrl: Говард Хьюз => Armn: Գովարդ Խյուզ
+````hy: Հովիկ Աբրահամյան````=> ````cyrl: ru: Овик Абраамян````=>````la: en: Ovik Abramyan````<br/>
+````hy: Հրազդան````=>````cyrl: ru: Раздан````=>````la: en: Razdan````<br/>
+````la: en: Howard Hughes````=>````cyrl: ru: Говард Хьюз````=>````hy: Գովարդ Խյուզ````<br/>
+
 
 It could come back into the original script mangled:
-Latn: Howard Hughes => Cyrl: Говард Хьюз => Govard Khyuz
 
-Armn: Հովիկ Աբրահամյան => 
+````la: Howard Hughes````=>````cyrl: ru: Говард Хьюз````=>````la: en: Govard Khyuz````
+````hy: Հասմիկ Կուրղինյան````=>````cyrl: ru: Асмик Кургинян````=>````hy: Ասմիկ Կուրգինյան````<br/> 
 
 #### Within alphabets
 
-Müller => Müller, Mueller, Muller
-George Bush => George Bush, Corc Buş
+````en: Müller````=>````de: Müller, Mueller, Muller````<br/>
+````la: George Bush````=>````tr: George Bush, Corc Buş````<br/>
 
 ## Our approach
 
