@@ -44,7 +44,7 @@ It could come back into the original script mangled:
 
 #### Within alphabets
 
-``**Give a short description for each case**``
+**Give a short description for each case**
 
 ````de: Müller````=>````Latn: Müller, Mueller, Muller````<br/>
 ````en: George Bush````=>````Latn: tr: George Bush, Corc Buş````<br/>
