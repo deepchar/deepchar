@@ -17,7 +17,7 @@ Some names can have dozens of versions into one script:
 
 There are of course multiple languages per script.
 
-```՝hy: Հովիկ Աբրահամյան````=>````pl: Howik Abrahamian, de: Howik Abrahamjan````
+````hy: Հովիկ Աբրահամյան````=>````pl: Howik Abrahamian, de: Howik Abrahamjan````
 ````hy: Սերժ Սարգսյան````=>````pl: Howik Abrahamian, de: Howik Abrahamjan````
 
 
