@@ -18,27 +18,20 @@ Some names can have dozens of versions into one script:
 There are of course multiple languages per script.
 
 ````hy: Հովիկ Աբրահամյան````=>````pl: Howik Abrahamian, de: Howik Abrahamjan````<br/>
-````hy: Սերժ Սարգսյան````=>````en: Serzh Sargsyan, fr: Serge Sarkissian````<br/>
+````hy: Սերժ Սարգսյան````=>````en: Serzh Sargsyan, fr: Serge Sarkissian, hr:Serž Sargsjan, nl: Serzj Sarkisian````<br/>
 
 
-Latn: John Smith =>
-  // Armn
-  hy: Ջոն Սմիթ,
-  // Cyrl
-  ru: Джон Смит,
-  sr: Џон Смит,
-  uk: Джон Сміт
-  kk:
-  ...
-  // Arab
-  fa: ...
-  ar: ...
-
-Latn: SnapChat => ...
+````la: John Smith````=>````hy: Ջոն Սմիթ````<br/>
+````la: John Smith````=>````cyrl: ru: Джон Смит, sr: Џон Смит, uk: Джон Сміт````<br/>
+````la: John Smith````=>````ar:  جون سميث, fa: جان اسمیت````<br/>  
+  
+````la: SnapChat````=>````hy: Սնապչատ````<br/>
+````la: SnapChat````=>````cyrl: ru: Снепчат, bg: Снапчат````<br/>
+````la: SnapChat````=>````la: tr: Snapçat, pl: Snapczat````<br/>
 
 #### Multiple conversions
 
-Armn: Հովիկ Աբրահամյան => Cyrl: ... => Ovik Abramyan
+````hy: Հովիկ Աբրահամյան````=> cyrl: ... => Ovik Abramyan
 Armn: Հրազդան => Cyrl: ... => Latn: Razdan
 Latn: Howard Hughes => Cyrl: Говард Хьюз => Armn: Գովարդ Խյուզ
 
