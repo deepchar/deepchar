@@ -8,18 +8,17 @@ The [transliteration](https://deepchar.github.io/) for translation of [named ent
 
 #### Simple
 ````hy: Հովիկ Աբրահամյան````=>````en: Hovik Abrahamyan, Hovik Abrahamian, Hovig Abrahamyan````<br/>
-````hy: Հովիկ Աբրահամյան````=>````Cyrl: ru:Овик Абраамян, uk: Овік Абрамян````
+````hy: Հովիկ Աբրահամյան````=>````cyrl: ru:Овик Абраамян, uk: Овік Абрамян````<br/>
 ````hy: Հրազդան````=>````en: Hrazdan````<br/>
 ````hy: Հրազդան````=>````ru: Раздан````<br/>
 
 Some names can have dozens of versions into one script:
-````hy: Շողիկ Հովհաննես Ցոլակյան````=>````en: ........````<br/>
-
+````hy: Շողիկ Հովհաննեսի Ցոլակյան````=>````en: Shoghik Hovhannes Tsolakyan, Shokhik Hovhanes Tsolakian, Shoghig Hovhaness Tzolakyan````<br/>
 
 There are of course multiple languages per script.
 
-Armn: Հովիկ Աբրահամյան => pl: Howik Abrahamian, Howik Abrahamjan
-
+```՝hy: Հովիկ Աբրահամյան````=>````pl: Howik Abrahamian, de: Howik Abrahamjan````
+````hy: Սերժ Սարգսյան````=>````pl: Howik Abrahamian, de: Howik Abrahamjan````
 
 
 Latn: John Smith =>
