@@ -7,53 +7,53 @@ The [transliteration](https://deepchar.github.io/) for translation of [named ent
 ### Types of name transliteration tasks:
 
 #### Simple
-````hy: Հովիկ Աբրահամյան````=>````en: Hovik Abrahamyan, Hovik Abrahamian, Hovig Abrahamyan````<br/>
-````hy: Հովիկ Աբրահամյան````=>````cyrl: ru:Овик Абраамян, uk: Овік Абрамян````<br/>
-````hy: Հրազդան````=>````en: Hrazdan````<br/>
-````hy: Հրազդան````=>````ru: Раздан````<br/>
+````Armn: Հովիկ Աբրահամյան````=>````Latn: en: Hovik Abrahamyan, Hovik Abrahamian, Hovig Abrahamyan````<br/>
+````Armn: Հովիկ Աբրահամյան````=>````Cyrl: ru:Овик Абраамян, uk: Овік Абрамян````<br/>
+````Armn: Հրազդան````=>````Latn: en: Hrazdan````<br/>
+````Armn: Հրազդան````=>````Cyrl: ru: Раздан````<br/>
 
 Some names can have dozens of versions into one script:
 
-````hy: Շողիկ Հովհաննեսի Ցոլակյան````=>````en: Shoghik Hovhannes Tsolakyan, Shokhik Hovhanes Tsolakian, Shoghig Hovhaness Tzolakyan````<br/>
+````Armn: Շողիկ Հովհաննեսի Ցոլակյան````=>````Latn: Shoghik Hovhannes Tsolakyan, Shokhik Hovhanes Tsolakian, Shoghig Hovhaness Tzolakyan````<br/>
 
 There are of course multiple languages per script.
 
-````hy: Հովիկ Աբրահամյան````=>````la: pl: Howik Abrahamian, de: Howik Abrahamjan````<br/>
-````hy: Սերժ Սարգսյան````=>````la: en: Serzh Sargsyan, fr: Serge Sarkissian, hr: Serž Sargsjan, nl: Serzj Sarkisian````<br/>
+````Armn: Հովիկ Աբրահամյան````=>````Latn: pl: Howik Abrahamian, de: Howik Abrahamjan````<br/>
+````Armn: Սերժ Սարգսյան````=>````Latn: en: Serzh Sargsyan, fr: Serge Sarkissian, hr: Serž Sargsjan, nl: Serzj Sarkisian````<br/>
 
 
-````la: John Smith````=>````hy: Ջոն Սմիթ````<br/>
-````la: John Smith````=>````cyrl: ru: Джон Смит, sr: Џон Смит, uk: Джон Сміт````<br/>
-````la: John Smith````=>````ar: ar:  جون سميث, fa: جان اسمیت````<br/>  
+````Latn: John Smith````=>````Armn: hy: Ջոն Սմիթ````<br/>
+````Latn: John Smith````=>````Cyrl: ru: Джон Смит, sr: Џон Смит, uk: Джон Сміт````<br/>
+````Latn: John Smith````=>````Arab: ar:  جون سميث, fa: جان اسمیت````<br/>  
   
-````la: SnapChat````=>````hy: Սնապչատ````<br/>
-````la: SnapChat````=>````cyrl: ru: Снепчат, bg: Снапчат````<br/>
-````la: SnapChat````=>````la: tr: Snapçat, pl: Snapczat````<br/>
+````Latn: SnapChat````=>````Armn: hy: Սնապչատ````<br/>
+````Latn: SnapChat````=>````Cyrl: ru: Снепчат, bg: Снапчат````<br/>
+````Latn: SnapChat````=>````Latn: tr: Snapçat, pl: Snapczat````<br/>
 
 #### Multiple conversions
 
-````hy: Հովիկ Աբրահամյան````=> ````ru: Овик Абраамян````=>````en: Ovik Abramyan````<br/>
-````hy: Հրազդան````=>````ru: Раздан````=>````en: Razdan````<br/>
-````en: Howard Hughes````=>````ru: Говард Хьюз````=>````hy: Գովարդ Խյուզ````<br/>
+````Armn: Հովիկ Աբրահամյան````=> ````Cyrl: ru: Овик Абраамян````=>````Latn: en: Ovik Abramyan````<br/>
+````Armn: Հրազդան````=>````Cyrl: Раздан````=>````Latn: Razdan````<br/>
+````Latn: Howard Hughes````=>````Cyrl: Говард Хьюз````=>````Armn: Գովարդ Խյուզ````<br/>
 
 
 It could come back into the original script mangled:
 
-````la: Howard Hughes````=>````ru: Говард Хьюз````=>````en: Govard Khyuz````<br/>
-````hy: Հասմիկ Կուրղինյան````=>````ru: Асмик Кургинян````=>````hy: Ասմիկ Կուրգինյան````<br/> 
+````Latn: Howard Hughes````=>````Cylr: ru: Говард Хьюз````=>````Latn: Govard Khyuz````<br/>
+````Armn: Հասմիկ Կուրղինյան````=>````Cyrl: ru: Асмик Кургинян````=>````Armn: Ասմիկ Կուրգինյան````<br/> 
 
 #### Within alphabets
 
-````en: Müller````=>````de: Müller, Mueller, Muller````<br/>
-````en: George Bush````=>````tr: George Bush, Corc Buş````<br/>
+``**Give a short description for each case**``
+
+````de: Müller````=>````Latn: Müller, Mueller, Muller````<br/>
+````en: George Bush````=>````Latn: tr: George Bush, Corc Buş````<br/>
 
 ## Our approach
 
 We use an approach similar to those commonly used for translation and also our main transliteration project: **parallel corpora**.
 
 We have trained initial models with two different architectures, **seq2seq** and **tensor2tensor**
-
-The **parallel corpora** have XK lines per script pair?.
 
 
 ## Datasets
@@ -68,7 +68,6 @@ Table below shows dataset statistics. Here EN means latin scripts not only Engli
 | EN-RU  | 179,853  | 143,882  | 278  | 124  |
 | EN-EL  | 37,505  | 30,004  | 170  | 97  |
 | EN-FA  | 78,663  | 62,930  | 170  | 117  |
-| EN-DE  | 547,033  | 437,626  | 350  | 363  |
 
 
 ## Benchmarks
@@ -97,7 +96,7 @@ As a future work can be considered
     - character-based NMT [(Ling et al., 2015)](https://arxiv.org/pdf/1808.02563.pdf)
     - convolutional Seq2Seq [(Gehring et al., 2017)](https://arxiv.org/pdf/1705.03122.pdf)<br/>
     for named entity transliteration task.
- 
+ - Create genereal model for all the languages
 
 
 ### References
