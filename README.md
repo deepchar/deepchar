@@ -4,7 +4,9 @@
 
 The [transliteration](https://deepchar.github.io/) for translation of [named entities](https://en.wikipedia.org/wiki/Named_entity) is a different task than the transliteration from informal variants back into their canonical forms.  Instead of many inputs mapping to one output, one input will map to many outputs.
 
-## Simple
+### Types of name transliteration tasks:
+
+#### Simple
 Armn: Հովիկ Աբրահամյան => en: Hovik Abrahamyan, Hovik Abrahamian
 Armn: Հրազդան => en: Hrazdan
 Armn: Հրազդան => ru: Раздан
@@ -36,7 +38,7 @@ Latn: John Smith =>
 
 Latn: SnapChat => ...
 
-## Multiple conversions
+#### Multiple conversions
 
 Armn: Հովիկ Աբրահամյան => Cyrl: ... => Ovik Abramyan
 Armn: Հրազդան => Cyrl: ... => Latn: Razdan
@@ -47,7 +49,7 @@ Latn: Howard Hughes => Cyrl: Говард Хьюз => Govard Khyuz
 
 Armn: Հովիկ Աբրահամյան => 
 
-## Within alphabets
+#### Within alphabets
 
 Müller => Müller, Mueller, Muller
 George Bush => George Bush, Corc Buş
