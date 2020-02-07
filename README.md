@@ -58,7 +58,16 @@ The **parallel corpora** have XK lines per script pair?.
 
 ## Datasets
 
-TODO
+Dataset creation is one of the most expensive tasks in [NLP](https://en.wikipedia.org/wiki/Natural_language_processing). Our goal was to create an almost 100% data collection pipeline so that other researchers in the field of [NMT](https://en.wikipedia.org/wiki/Neural_machine_translation) could use it. We were motivated by the fact that at the time of this research there were very few open-sources.
+We extracted raw data, learned word alignment and created a dataset of multi-token name pairs. As far as the pronunciation of a last name is independent of the previous tokens we stick with [Yuval Merhav, Stephen Ash et al. 2018](https://github.com/steveash/NETransliteration-COLING2018) approach and represent data as a single tokens. 
+
+| Dataset  | Total size | Training size  | Source Alphabet size | Target Alphabet size | 
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| EN-HY  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| EN-RU  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| EN-EL  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| EN-FA  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| EN-DE  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 
 ## Benchmarks
 
