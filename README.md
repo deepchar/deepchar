@@ -64,10 +64,11 @@ We extracted raw data, learned word alignment and created a dataset of multi-tok
 | Dataset  | Total size | Training size  | Source Alphabet size | Target Alphabet size | 
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
 | EN-HY  | 39,707  | 25,412  | 152  | 107  |
-| EN-RU  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| EN-EL  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| EN-RU  | 179,853  | 143,882  | 278  | 124  |
+| EN-EL  | 37,505  | 30,004  | 170  | 97  |
 | EN-FA  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | EN-DE  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+
 
 
 ## Benchmarks
