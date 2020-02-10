@@ -52,7 +52,7 @@ Let's consider some linguistic variations within the alphabet in case of the Ger
 3. the umlaut diacritic is simply omitted, and *ü* becomes *u*<br/> 
 ````de: Müller````=>````Latn: Muller````<br/>
 
-Name Goerge Bush provides different variations within the same latin script
+Name Goerge Bush provides a list of variations within the same latin script:
 
 ````en: George Bush````=>````Latn: tr: Corc Buş````<br/>
 ````en: George Bush````=>````Latn: de: Schorsch Busch````<br/>
