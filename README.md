@@ -44,15 +44,21 @@ It could come back into the original script mangled:
 
 #### Within alphabets
 
-This case is about linguistic variations within the alphabet. Let's consider, for instance, German name Müller. There are three common transcriptions for German [umlaut](https://en.wikipedia.org/wiki/Germanic_umlaut).
+Let's consider some linguistic variations within the alphabet in case of the German name Müller. There are three common transcriptions for German [umlaut](https://en.wikipedia.org/wiki/Germanic_umlaut).
 1. the umlaut stays<br/> 
 ````de: Müller````=>````Latn: Müller````
-2. diacritic replaced by an *e* after the vowel so that *ü* becomes *ue*
+2. diacritic replaced by an *e* after the vowel so that *ü* becomes *ue*<br/>
 ````de: Müller````=>````Latn: Mueller````<br/>
 3. the umlaut diacritic is simply omitted, and *ü* becomes *u*<br/> 
 ````de: Müller````=>````Latn: Muller````<br/>
 
-````en: George Bush````=>````Latn: tr: George Bush, Corc Buş````<br/>
+Name Goerge Bush provides different variations within the same latin script
+
+````en: George Bush````=>````Latn: tr: Corc Buş````<br/>
+````en: George Bush````=>````Latn: de: Schorsch Busch````<br/>
+````en: George Bush````=>````Latn: de: Schorsch Bussche````<br/>
+````en: George Bush````=>````Latn: en: George Boush````<br/>
+````en: George Bush````=>````Latn: alb: Xhorxh Bysh````<br/>
 
 
 ## Our approach
