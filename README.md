@@ -44,12 +44,12 @@ It could come back into the original script mangled:
 
 #### Within alphabets
 
-There are three common transcriptions for German [umlaut](https://en.wikipedia.org/wiki/Germanic_umlaut).
-1. the umlaut stays 
+This case is about linguistic variations within the alphabet. Let's consider, for instance, German name Müller. There are three common transcriptions for German [umlaut](https://en.wikipedia.org/wiki/Germanic_umlaut).
+1. the umlaut stays<br/> 
 ````de: Müller````=>````Latn: Müller````
-2. diacritic replaced by an `e` after the vowel so that `ü` becomes `ue`
+2. diacritic replaced by an *e* after the vowel so that *ü* becomes *ue*
 ````de: Müller````=>````Latn: Mueller````<br/>
-3. the umlaut diacritic is simply omitted, and `ü` becomes `u` 
+3. the umlaut diacritic is simply omitted, and *ü* becomes *u*<br/> 
 ````de: Müller````=>````Latn: Muller````<br/>
 
 ````en: George Bush````=>````Latn: tr: George Bush, Corc Buş````<br/>
