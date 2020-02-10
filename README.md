@@ -44,10 +44,16 @@ It could come back into the original script mangled:
 
 #### Within alphabets
 
-**Give a short description for each case**
+There are three common transcriptions for German [umlaut](https://en.wikipedia.org/wiki/Germanic_umlaut).
+1. the umlaut stays 
+````de: Müller````=>````Latn: Müller````
+2. diacritic replaced by an `e` after the vowel so that `ü` becomes `ue`
+````de: Müller````=>````Latn: Mueller````<br/>
+3. the umlaut diacritic is simply omitted, and `ü` becomes `u` 
+````de: Müller````=>````Latn: Muller````<br/>
 
-````de: Müller````=>````Latn: Müller, Mueller, Muller````<br/>
 ````en: George Bush````=>````Latn: tr: George Bush, Corc Buş````<br/>
+
 
 ## Our approach
 
@@ -59,7 +65,7 @@ We have trained initial models with two different architectures, **seq2seq** and
 ## Datasets
 
 Dataset creation is one of the most expensive tasks in [NLP](https://en.wikipedia.org/wiki/Natural_language_processing). Our goal was to create an almost 100% data collection pipeline so that other researchers in the field of [NMT](https://en.wikipedia.org/wiki/Neural_machine_translation) could use it. We were motivated by the fact that at the time of this research there were very few open-sources.
-We extracted raw data, learned word alignment and created a dataset of multi-token name pairs. As far as the pronunciation of a last name is independent of the previous tokens we stick with [Yuval Merhav's and Steven Ash's  approach ](https://arxiv.org/pdf/1808.02563.pdf) and represent **parallel corpora** as a single tokens pair. 
+We extracted raw data, learned word alignment and created a dataset of multi-token name pairs. We assumed that the pronunciation of a last name is independent of the previous tokens we stick with [Yuval Merhav's and Steven Ash's  approach ](https://arxiv.org/pdf/1808.02563.pdf) and represent **parallel corpora** as a single tokens pair. 
 Table below shows dataset statistics. Here EN means latin scripts not only English.
 
 | Dataset  | Total size | Training size  | Source Alphabet size | Target Alphabet size | 
