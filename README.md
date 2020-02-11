@@ -103,7 +103,11 @@ As benchmarks we considered the transliteration module of [Polyglot](https://pyp
 
 ## Results
 
-Table below shows [WER (Word Error Rate)](https://en.wikipedia.org/wiki/Word_error_rate) comparison for Polyglot, Seq2Seq and Tensor2Tensor on the given parallel corpora. Results of the [transliterate](https://pypi.org/project/transliterate/) library are not shown because they were very far below displayed ones. Interestingly, the seq2seq system consistently performed the best. The only exception is EN ➜ EL Seq2Seq and Tensor2Tensor show equal results. Moreover,  Tensor2Tensor model failed to train on persian dataset.
+We compared [WER (Word Error Rate)](https://en.wikipedia.org/wiki/Word_error_rate) between Polyglot, and our seq2seq and tensor2tensor implementations on the given parallel corpora.
+
+The results of the [transliterate](https://pypi.org/project/transliterate/) library are not shown because they were not competitive at all.
+
+Interestingly, the seq2seq system consistently performed the best. The only exception is Latn ➜ el-Grek, where seq2seq and tensor2tensor had equal results.  Moreover, the tensor2tensor model failed to train on the Persian dataset.
 
 | Dataset  | Polyglot| Seq2Seq  | Tensor2Tensor | 
 | :-------------: | :-------------: | :-------------: | :-------------: |
