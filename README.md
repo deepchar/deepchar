@@ -58,7 +58,7 @@ There are three common transcriptions for German [umlaut](https://en.wikipedia.o
 
 1. Preserve the umlaut   
 ````de: Müller```` ➜ ````Latn: Müller````
-2. Decompose the diacritic
+2. Decompose the diacritic  
 ````de: Müller```` ➜ ````Latn: Mueller````  
 3. Simply omit the umlaut  
 ````de: Müller```` ➜ ````Latn: Muller````  
