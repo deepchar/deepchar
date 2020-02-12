@@ -65,7 +65,7 @@ There are three common transcriptions for German [umlaut](https://en.wikipedia.o
 
 Decomposition is specific to German.  In many other orthographic traditions, it is simply omitted.
 
-Some Latin orthographies nativise according to pronunciation, not unlike non-Latin alphabet orthographies.
+Some Latin orthographies nativize according to pronunciation, not unlike non-Latin alphabet orthographies.
 
 ````en: George Bush```` ➜ ````Latn: tr: Corc Buş````  
 ````en: George Bush```` ➜ ````Latn: de: Schorsch Busch````  
@@ -119,22 +119,22 @@ Interestingly, the seq2seq system consistently performed the best. The only exce
 ## Future work
 
 #### More directions
-Creating models for different combination of source and target languages, i.e. Latn ➜ ru-Cyrl, Cyrl ➜ en-Latn, Armn ➜ ru-Cyrl, etc
+Creating models for different combination of source and target languages, i.e. Latn ➜ ru-Cyrl, Cyrl ➜ en-Latn, Armn ➜ ru-Cyrl, etc.
 
 #### More script types
 Creating models for scripts that use ideograms, syllabaries, such as Chinese, Japanese and Korean, or often omit vowels, such as Hebrew or Arabic.
 
 #### Quality and confidence
-Research model how model errors and quality correlate with token frequency and length
+Research how model errors and quality correlate with token frequency and length.
 
 #### Context
-Train models that use context, both the previous or next word or an entire sentence
+Train models that use context, both the previous or next word or an entire sentence.
 
 #### Architectures
 Train character-based NMT [(Ling et al., 2015)](https://arxiv.org/pdf/1808.02563.pdf) or convolutional seq2seq [(Gehring et al., 2017)](https://arxiv.org/pdf/1705.03122.pdf)
 
 #### Massive multilingual model
-Train a single general model for all the languages and transliteration directions
+Train a single general model for all the languages and transliteration directions.
 
 
 ### References
