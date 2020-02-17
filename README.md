@@ -15,7 +15,7 @@ The canonical cases are fairly simple.
 ````Armn: Հրազդան```` ➜ ````Latn: en: Hrazdan````  
 ````Armn: Հրազդան```` ➜ ````Cyrl: ru: Раздан````  
 ````Armn: Հրազդան```` ➜ ````Cyrl: ru: Раздан````  
-````Latn: Tom Collins```` ➜ ````Cyrl: ru: Том Коллинз```
+````Latn: Tom Collins```` ➜ ```Cyrl: ru: Том Коллинз```
 
 Some names can have dozens of versions when transliterated into another script.
 
