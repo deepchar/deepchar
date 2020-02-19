@@ -2,9 +2,19 @@
 
 [github.com/deepchar/entities](https://github.com/deepchar/entities/) *Transliteration for translation of named entities*
 
-The **[transliteration](https://deepchar.github.io/)** for translation of **[named entities](https://en.wikipedia.org/wiki/Named_entity)** is a different task than the transliteration from informal variants back into their canonical forms.  Instead of many inputs mapping to one output, **one input will map to many outputs.**
+The **[transliteration](https://deepchar.github.io/)** for translation of **[named entities](https://en.wikipedia.org/wiki/Named_entity)** is a different task than the transliteration from informal variants back into their canonical forms.  Instead of many inputs mapping to one output, **one input will map to many outputs.** 
 
-Transliteration of named entities is useful in search engines, especially within social networks, and for legal discovery, criminal investigations and financial or governmental applications.  The goal is to find all possible versions of name, in all alphabets.
+Transliteration of named entities is useful in search engines, especially within social networks, and for legal discovery, criminal investigations and financial or governmental applications.  The goal is to find all possible versions of name, in all alphabets. 
+
+Many names may have multiple correct transliterations within the same alphabet. So to find a friend say on Facebook it's good to have at least few choices for a given name, kind of query expansion. Our Model "expands" name from it's canonical form to all the possible "child" forms and outputs top three candidates.
+
+```Latn: Tagoush```➜```Armn: Թագուշ, Տագուշ, Թաքուշ```
+```Latn: Keropian```➜```Armn: Կերոպյան, Քերոբյան, Քերոպյան```
+```Latn: Roerig```➜```Armn: Ռորիգ, Ռյորիգ, Ռուրիգ```
+```Latn: Alegre```➜```Armn: Ալեգրի, Ալեգռի, էլեգրի```
+```Latn: Yershov```➜```Cyrl: Ершов, Ершев, Ерщов```
+```Latn: Savostyanov```➜```Cyrl: Савостьянов, Савостьянов, Савостианов```
+```Latn: Kruglolesskoye```➜```Cyrl: Круглолесское, Круглолеский, Круглолеской```
 
 ### Types of name transliteration
 
