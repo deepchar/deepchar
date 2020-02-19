@@ -6,7 +6,7 @@ The **[transliteration](https://deepchar.github.io/)** for translation of **[nam
 
 Transliteration of named entities is useful in search engines, especially within social networks, and for legal discovery, criminal investigations and financial or governmental applications.  The goal is to find all possible versions of name, in all alphabets. 
 
-Many names may have multiple correct transliterations within the same alphabet. So to find a friend say on Facebook it's good to have at least few choices for a given name, kind of query expansion. Our Model "expands" name from it's canonical form to all the possible "child" forms and outputs top three candidates.
+Many names may have multiple correct transliterations within the same alphabet. So to find a friend's page on Facebook it's good to have at least few choices for a given name.
 
 ```Latn: Tagoush```➜```Armn: Թագուշ, Տագուշ, Թաքուշ```  
 ```Latn: Keropian```➜```Armn: Կերոպյան, Քերոբյան, Քերոպյան```  
@@ -15,6 +15,8 @@ Many names may have multiple correct transliterations within the same alphabet. 
 ```Latn: Yershov```➜```Cyrl: Ершов, Ершев, Ерщов```  
 ```Latn: Savostyanov```➜```Cyrl: Савостьянов, Савостьянов, Савостианов```  
 ```Latn: Kruglolesskoye```➜```Cyrl: Круглолесское, Круглолеский, Круглолеской```  
+
+Our model does a kind of query expansion. It generates all the possible "child" forms from the canocical one and outputs top three candidates.
 
 ### Types of name transliteration
 
