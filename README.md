@@ -135,8 +135,13 @@ Here are few examples on which shows good results.
 | Task  | Source | Target  | 3-best | 
 | :-------------: | :-------------: | :-------------: | :-------------: |
 | Latn ➜ hy-Armn  | fazlian  | ֆազլյան  | ֆազլյան<br/>ֆասլյան<br/>ֆացլյան  |
+| Latn ➜ hy-Armn  | fazlian  | ֆազլյան  | ֆազլյան<br/>ֆասլյան<br/>ֆացլյան  |
 | Latn ➜ ru-Cyrl  | afanasyeva  | афанасьева  | афанасьева<br/>афанасиева<br/>афанасева  |
+| Latn ➜ ru-Cyrl  | vishnevskiĭ  | вишневский  | вишневский<br/>вышневский<br/>вишнёвский  |
+| Latn ➜ ru-Cyrl  | edward  | эдвард  | эдвард<br/>эдуард<br/>эдуорд  |
 | Latn ➜ el-Grek  | kioussis  | κιούσης  | κιούσης<br/>κιούσσης<br/>κιούσις  |
+| Latn ➜ el-Grek  | kioussis  | κιούσης  | κιούσης<br/>κιούσσης<br/>κιούσις  |
+| Latn ➜ fa-Arab  | momayez  | ممیز  | ممیز<br/>ممیظ<br/> معمیز  |
 | Latn ➜ fa-Arab  | momayez  | ممیز  | ممیز<br/>ممیظ<br/> معمیز  |
 
 
