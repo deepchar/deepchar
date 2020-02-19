@@ -135,7 +135,7 @@ Here are few examples on which shows good results.
 | Task  | Source | Target  | 3-best | 
 | :-------------: | :-------------: | :-------------: | :-------------: |
 | Latn ➜ hy-Armn  | fazlian  | ֆազլյան  | ֆազլյան<br/>ֆասլյան<br/>ֆացլյան  |
-| Latn ➜ hy-Armn  | fazlian  | ֆազլյան  | ֆազլյան<br/>ֆասլյան<br/>ֆացլյան  |
+| Latn ➜ hy-Armn  | chukhajyan  | չուխաջյան  | չուխաջյան<br/>չուխայան<br/>ճուխաջյան  |
 | Latn ➜ ru-Cyrl  | afanasyeva  | афанасьева  | афанасьева<br/>афанасиева<br/>афанасева  |
 | Latn ➜ ru-Cyrl  | vishnevskiĭ  | вишневский  | вишневский<br/>вышневский<br/>вишнёвский  |
 | Latn ➜ ru-Cyrl  | edward  | эдвард  | эдвард<br/>эдуард<br/>эдуорд  |
