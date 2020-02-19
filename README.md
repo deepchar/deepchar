@@ -8,13 +8,13 @@ Transliteration of named entities is useful in search engines, especially within
 
 Many names may have multiple correct transliterations within the same alphabet. So to find a friend say on Facebook it's good to have at least few choices for a given name, kind of query expansion. Our Model "expands" name from it's canonical form to all the possible "child" forms and outputs top three candidates.
 
-```Latn: Tagoush```➜```Armn: Թագուշ, Տագուշ, Թաքուշ```
-```Latn: Keropian```➜```Armn: Կերոպյան, Քերոբյան, Քերոպյան```
-```Latn: Roerig```➜```Armn: Ռորիգ, Ռյորիգ, Ռուրիգ```
-```Latn: Alegre```➜```Armn: Ալեգրի, Ալեգռի, էլեգրի```
-```Latn: Yershov```➜```Cyrl: Ершов, Ершев, Ерщов```
-```Latn: Savostyanov```➜```Cyrl: Савостьянов, Савостьянов, Савостианов```
-```Latn: Kruglolesskoye```➜```Cyrl: Круглолесское, Круглолеский, Круглолеской```
+```Latn: Tagoush```➜```Armn: Թագուշ, Տագուշ, Թաքուշ```  
+```Latn: Keropian```➜```Armn: Կերոպյան, Քերոբյան, Քերոպյան```  
+```Latn: Roerig```➜```Armn: Ռորիգ, Ռյորիգ, Ռուրիգ```  
+```Latn: Alegre```➜```Armn: Ալեգրի, Ալեգռի, էլեգրի```  
+```Latn: Yershov```➜```Cyrl: Ершов, Ершев, Ерщов```  
+```Latn: Savostyanov```➜```Cyrl: Савостьянов, Савостьянов, Савостианов```  
+```Latn: Kruglolesskoye```➜```Cyrl: Круглолесское, Круглолеский, Круглолеской```  
 
 ### Types of name transliteration
 
