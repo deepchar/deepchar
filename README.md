@@ -136,8 +136,9 @@ Here are few examples on which shows good results.
 | :-------------: | :-------------: | :-------------: | :-------------: |
 | Latn ➜ hy-Armn  | fazlian  | ֆազլյան  | ֆազլյան<br/>ֆասլյան<br/>ֆացլյան  |
 | Latn ➜ ru-Cyrl  | afanasyeva  | афанасьева  | афанасьева<br/>афанасиева<br/>афанасева  |
-| Latn ➜ el-Grek  | 37,505  | 30,004  | 170  |
-| Latn ➜ fa-Arab  | 78,663  | 62,930  | 170  |
+| Latn ➜ el-Grek  | kioussis  | κιούσης  | κιούσης<br/>κιούσσης<br/>κιούσις  |
+| Latn ➜ fa-Arab  | momayez  | ممیز  | ممیز<br/>ممیظ<br/> معمیز  |
+
 
 ## Future work
 
