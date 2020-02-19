@@ -134,8 +134,8 @@ Here are few examples on which shows good results.
 
 | Task  | Source | Target  | 3-best | 
 | :-------------: | :-------------: | :-------------: | :-------------: |
-| Latn ➜ hy-Armn  | fazlian  | Ֆազլյան  | ֆազլյան<br/>ֆասլյան<br/> ֆացլյան<br/>  |
-| Latn ➜ ru-Cyrl  | 179,853  | 143,882  | 278  |
+| Latn ➜ hy-Armn  | fazlian  | ֆազլյան  | ֆազլյան<br/>ֆասլյան<br/>ֆացլյան  |
+| Latn ➜ ru-Cyrl  | afanasyeva  | афанасьева  | афанасьева<br/>афанасиева<br/>афанасева  |
 | Latn ➜ el-Grek  | 37,505  | 30,004  | 170  |
 | Latn ➜ fa-Arab  | 78,663  | 62,930  | 170  |
 
