@@ -10,14 +10,16 @@ The same name referring to the same person or other entity could be indexed or q
 
 **```Ершов```**, ```Yershov```, ```Ershov```, ...
 
+**```Шостакович```**, ```Shostakovich```, ```Šostakovič```, ```Xostakóvitx```, ...
+
 **```Թագուշ```**, ```Tagoush```, ```Tagoosh```, ```Tagush```, ```Tagusch```, ```Taguš```, ```Тагуш```, ...
 
 **```Alegre```**, ```Алегри```, ```Ալեգրի```, ```Ալեգրե```, ```آلگری```, ```Αλέγκρε```...
 
 
-These forms are not standardised, but they are also not typos or misspellings.  Certain forms do not occur organically: ```*Tagus```, ```*Тагусх*```.
+These forms are not standardised, but they are also not typos or misspellings.  Certain forms do not occur organically: ```*Tagus```, ```*Тагусх*```, ...
 
-A human literate in the relevant languages and alphabets generally maps them back to the canonical form correctly and effortlessly, subconsciouly resolving ambiguity and discarding invalid candidates: ```*Ершев```, ```*Ерщов```, ```*Թագոուշ```, ```*Տագուշ```, ```*Թաքուշ```. 
+A human literate in the relevant languages and alphabets generally maps them back to the canonical form correctly and effortlessly, subconsciouly resolving ambiguity and discarding invalid candidates: ```*Ершев```, ```*Ерщов```, ```*Թագոուշ```, ```*Տագուշ```, ```*Թաքուշ```, ```Ершёв```, ```Схостаковицх```, ...
 
 Our initial task is canonicalisation: **given an informal child form and a target language and script, generate the canonical form.**
 
@@ -85,6 +87,7 @@ Quite often, a name could be repeatedly transliterated:
 ````Հովիկ Աբրահամյան```` ➜  ````ru-Cyrl: Овик Абраамян```` ➜ ````Latn: en: Ovik Abramyan````  
 ````Հրազդան```` ➜ ````ru-Cyrl: Раздан```` ➜ ````en-Latn: Razdan````  
 ````Howard Hughes```` ➜ ````ru-Cyrl: Говард Хьюз```` ➜ ````hy-Armn: Գովարդ Խյուզ````  
+```Шостакович``` ➜ ```it-Latn: Šostakovič```  ➜ ```en-Latn: Sostakovic```
 
 It could even come back into the original script mangled.
 
