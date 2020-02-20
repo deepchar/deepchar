@@ -163,7 +163,7 @@ For each model, we show a few examples where the model did well - the top candid
 | Source text | Model target language | Model outputs | Correct output |
 | :-------------: | :-------------: | :-------------: | :-------------: |
 | fazlian | hy-Armn| **ֆազլյան**<br/>ֆասլյան<br/>ֆացլյան  | |
-| gobelyan | hy-Armn  | <span style="color:red">գոբելյան<br/>գոբիլյան<br/>գոպելյան</span>  | կոպելյան |
+| gobelyan | hy-Armn  | գոբելյան<br/>գոբիլյան<br/>գոպելյան  | կոպելյան |
 
 
 **TODO: reformat the rest of the table as above**
