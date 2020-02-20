@@ -2,9 +2,21 @@
 
 [github.com/deepchar/entities](https://github.com/deepchar/entities/) *Transliteration for translation of named entities*
 
-The **[transliteration](https://deepchar.github.io/)** for translation of **[named entities](https://en.wikipedia.org/wiki/Named_entity)** is a different task than the transliteration from informal variants back into their canonical forms.  Instead of many inputs mapping to one output, **one input will map to many outputs.**
+The **[transliteration](https://deepchar.github.io/)** for translation of **[named entities](https://en.wikipedia.org/wiki/Named_entity)** is a different task than the transliteration from informal variants back into their canonical forms.  Instead of many inputs mapping to one output, **one input will map to many outputs.** 
 
-Transliteration of named entities is useful in search engines, especially within social networks, and for legal discovery, criminal investigations and financial or governmental applications.  The goal is to find all possible versions of name, in all alphabets.
+Transliteration of named entities is useful in search engines, especially within social networks, and for legal discovery, criminal investigations and financial or governmental applications.  The goal is to find all possible versions of name, in all alphabets. 
+
+Many names may have multiple correct transliterations within the same alphabet. So to find a friend's page on Facebook it's good to have at least few choices for a given name.
+
+```Latn: Tagoush```➜```Armn: Թագուշ, Տագուշ, Թաքուշ```  
+```Latn: Keropian```➜```Armn: Կերոպյան, Քերոբյան, Քերոպյան```  
+```Latn: Roerig```➜```Armn: Ռորիգ, Ռյորիգ, Ռուրիգ```  
+```Latn: Alegre```➜```Armn: Ալեգրի, Ալեգռի, էլեգրի```  
+```Latn: Yershov```➜```Cyrl: Ершов, Ершев, Ерщов```  
+```Latn: Savostyanov```➜```Cyrl: Савостьянов, Савостьянов, Савостианов```  
+```Latn: Kruglolesskoye```➜```Cyrl: Круглолесское, Круглолеский, Круглолеской```  
+
+Our model does a kind of query expansion. It generates all the possible "child" forms from the canocical one and outputs top three candidates.
 
 ### Types of name transliteration
 
@@ -115,6 +127,42 @@ Interestingly, the seq2seq system consistently performed the best. The only exce
 | Latn ➜ ru-Cyrl  | 0.56  | **0.24**  | 0.37  |
 | Latn ➜ el-Grek  | 0.9  | **0.52** | **0.52**  |
 | Latn ➜ fa-Arab  | -  | **0.49**  | -  |
+
+## Error analysis
+
+Here are three examples for each transliteration task (Latn ➜ hy-Armn, Latn ➜ ru-Cyrl, etc) on which model performed well. 
+
+| Task  | Source | Target  | 3-best | 
+| :-------------: | :-------------: | :-------------: | :-------------: |
+| Latn ➜ hy-Armn  | fazlian  | ֆազլյան  | ֆազլյան<br/>ֆասլյան<br/>ֆացլյան  |
+| Latn ➜ hy-Armn  | chukhajyan  | չուխաջյան  | չուխաջյան<br/>չուխայան<br/>ճուխաջյան  |
+| Latn ➜ hy-Armn  | breslin  | բրեսլին  | բրեսլին<br/>բրեզլին<br/>բրեսլեն  |
+| Latn ➜ ru-Cyrl  | afanasyeva  | афанасьева  | афанасьева<br/>афанасиева<br/>афанасева  |
+| Latn ➜ ru-Cyrl  | vishnevskiĭ  | вишневский  | вишневский<br/>вышневский<br/>вишнёвский  |
+| Latn ➜ ru-Cyrl  | edward  | эдвард  | эдвард<br/>эдуард<br/>эдуорд  |
+| Latn ➜ el-Grek  | kioussis  | κιούσης  | κιούσης<br/>κιούσσης<br/>κιούσις  |
+| Latn ➜ el-Grek  | papastathopoulos  | παπασταθόπουλος  | παπασταθόπουλος<br/>παπασθαθόπουλος<br/>παπασταθώπουλος  |
+| Latn ➜ el-Grek  | denzel  | ντένζελ  | ντένζελ<br/>ντένσελ<br/>ντάνζελ  |
+| Latn ➜ fa-Arab  | momayez  | ممیز  | ممیز<br/>ممیظ<br/>معمیز  |
+| Latn ➜ fa-Arab  | adineh  | آدینه  | آدینه<br/>ادینه<br/>آدینیه  |
+
+**Bad examples** 
+Give an explanation to errors and point future directions of work
+
+| Task  | Source | Target  | 3-best | 
+| :-------------: | :-------------: | :-------------: | :-------------: |
+| Latn ➜ hy-Armn  | gobelyan  | կոպելյան  | գոբելյան<br/>գոբիլյան<br/>գոպելյան  |
+| Latn ➜ hy-Armn  | bizet  | բիզե  | բիզեթ<br/>բիզետ<br/>բիսեթ  |
+| Latn ➜ hy-Armn  | chkheidze  | չխեիձե  | չկխեյձե<br/>չկխիձե<br/>չխայձե  |
+| Latn ➜ ru-Cyrl  | suzdal  | суздаль  | суздал<br/>сюздаль<br/>сюздал  |
+| Latn ➜ ru-Cyrl  | fargère  | фаржер  | фарджер<br/>фаргер<br/>фарджир  |
+| Latn ➜ ru-Cyrl  | wolkenstain  | волькенштейн  | волкенштайн<br/>волькенштайн<br/>уолкенштайн  |
+| Latn ➜ el-Grek  | nissiotis  | νησιώτης  | νισιώτης<br/>νισσιώτης<br/>νυσιώτης  |
+| Latn ➜ el-Grek  | dallas  | ντάλας  | ντάλλας<br/>ντέιλας<br/>ντόλας  |
+| Latn ➜ el-Grek  | håkan  | χόκαν  | χάκαν<br/>χακάν<br/>χέκαν  |
+| Latn ➜ fa-Arab  | ereyahi  | اریاهی  | الریاحی<br/>اریهای<br/>اریهی  |
+| Latn ➜ fa-Arab  | ligt  | لیگت  | لیخت<br/>لیجت<br/>لیگ  |
+| Latn ➜ fa-Arab  | entezam  | 	انتزام  | انتظام<br/>انتجام<br/>انتزم  |
 
 ## Future work
 
