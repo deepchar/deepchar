@@ -130,7 +130,7 @@ Interestingly, the seq2seq system consistently performed the best. The only exce
 
 ## Error analysis
 
-There are three examples for each transliteration task (Latn ➜ hy-Armn, Latn ➜ ru-Cyrl, etc): two of them are native named entities for each language and one is typical for the Latn script. Table below shows 
+Here are three examples for each transliteration task (Latn ➜ hy-Armn, Latn ➜ ru-Cyrl, etc) on which model performed well. 
 
 | Task  | Source | Target  | 3-best | 
 | :-------------: | :-------------: | :-------------: | :-------------: |
@@ -146,6 +146,30 @@ There are three examples for each transliteration task (Latn ➜ hy-Armn, Latn �
 | Latn ➜ fa-Arab  | momayez  | ممیز  | ممیز<br/>ممیظ<br/> معمیز  |
 | Latn ➜ fa-Arab  | adineh  | آدینه  | آدینه<br/>ادینه<br/>آدینیه  |
 
+| Task  | Source | Target  | 3-best | 
+| :-------------: | :-------------: | :-------------: | :-------------: |
+| Latn ➜ hy-Armn  | fazlian  | ֆազլյան  | ֆազլյան<br/>ֆասլյան<br/>ֆացլյան  |
+| Latn ➜ hy-Armn  | chukhajyan  | չուխաջյան  | չուխաջյան<br/>չուխայան<br/>ճուխաջյան  |
+| Latn ➜ hy-Armn  | breslin  | բրեսլին  | բրեսլին<br/>բրեզլին<br/>բրեսլեն  |
+| Latn ➜ ru-Cyrl  | afanasyeva  | афанасьева  | афанасьева<br/>афанасиева<br/>афанасева  |
+| Latn ➜ ru-Cyrl  | vishnevskiĭ  | вишневский  | вишневский<br/>вышневский<br/>вишнёвский  |
+| Latn ➜ ru-Cyrl  | edward  | эдвард  | эдвард<br/>эдуард<br/>эдуорд  |
+| Latn ➜ el-Grek  | kioussis  | κιούσης  | κιούσης<br/>κιούσσης<br/>κιούσις  |
+| Latn ➜ el-Grek  | papastathopoulos  | παπασταθόπουλος  | παπασταθόπουλος<br/>παπασθαθόπουλος<br/>παπασταθώπουλος  |
+| Latn ➜ el-Grek  | denzel  | ντένζελ  | ντένζελ<br/>ντένσελ<br/>ντάνζελ  |
+| Latn ➜ fa-Arab  | momayez  | ممیز  | ممیز<br/>ممیظ<br/> معمیز  |
+| Latn ➜ fa-Arab  | adineh  | آدینه  | آدینه<br/>ادینه<br/>آدینیه  |
+
+Bad examples
+| Task  | Source | Target  | 3-best | 
+| :-------------: | :-------------: | :-------------: | :-------------: |
+| Latn ➜ hy-Armn  | gobelyan  | կոպելյան  | գոբելյան<br/>գոբիլյան<br/>գոպելյան  |
+| Latn ➜ hy-Armn  | bizet  | բիզե  | բիզեթ<br/>բիզետ<br/>բիսեթ  |
+| Latn ➜ hy-Armn  | chkheidze  | չխեիձե  | չկխեյձե<br/>չկխիձե<br/>չխայձե  |
+| Latn ➜ ru-Cyrl  | suzdal  | суздаль  | суздал<br/>сюздаль<br/>сюздал  |
+| Latn ➜ ru-Cyrl  | fargère  | фаржер  | фарджер<br/>фаргер<br/>фарджир  |
+| Latn ➜ ru-Cyrl  | wolkenstain  | волькенштейн  | волкенштайн<br/>волькенштайн<br/>уолкенштайн  |
+| Latn ➜ el-Grek  | kioussis  | κιούσης  | κιούσης<br/>κιούσσης<br/>κιούσις  |
 
 ## Future work
 
