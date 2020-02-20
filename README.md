@@ -19,21 +19,23 @@ These forms are not standardised, but they are also not typos or misspellings.  
 
 A human literate in the relevant languages and alphabets generally maps them back to the canonical form correctly and effortlessly, subconsciouly resolving ambiguity and discarding invalid candidates: ```*Ершев```, ```*Ерщов```, ```*Թագոուշ```, ```*Տագուշ```, ```*Թաքուշ```. 
 
-Our initial task is canonicalisation: **given an informal child form and a target script, generate the canonical form.**
+Our initial task is canonicalisation: **given an informal child form and a target language and script, generate the canonical form.**
 
-```Yershov``` + ```Cyrl``` ➜ **```Ершов```**  
+```Yershov``` + ```ru-Cyrl``` ➜ **```Ершов```**  
 
-```Yershov``` + ```Cyrl``` ➜ **```Ершов```**  
+```Yershov``` + ```ru-Cyrl``` ➜ **```Ершов```**  
 
-```Tagoush``` + ```Armn``` ➜  **```Թագուշ```**
+```Tagoush``` + ```hy-Armn``` ➜  **```Թագուշ```**
 
-```Tagoush``` + ```Armn``` ➜  **```Թագուշ```**
+```Tagoush``` + ```hy-Armn``` ➜  **```Թագուշ```**
 
-```Tagoush``` + ```Cyrl``` ➜  **```Тагуш```**
+```Tagoush``` + ```ru-Cyrl``` ➜  **```Тагуш```**
 
-```Алегри``` + ```Latn```➜  **```Alegre```**
+```Алегри``` + ```pt-Latn```➜  **```Alegre```**
 
-```Ալեգրի``` + ```Latn```➜  **```Alegre```**
+```Алегри``` + ```en-Latn```➜  **```Alegre```**
+
+```Ալեգրի``` + ```pt-Latn```➜  **```Alegre```**
 
 
 We can also formulate the task in reverse: given a canonical form, generate child forms.
