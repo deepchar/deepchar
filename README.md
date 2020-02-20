@@ -164,7 +164,7 @@ For each target language and thus for each model, we show a few examples where t
 #### hy-Armn
 
 | Source text | Model outputs | Correct output |
-| :-------------: | :-------------: | :-------------: | :-------------: |
+| :-------------: | :-------------: | :-------------: |
 | fazlian | **ֆազլյան**<br/>ֆասլյան<br/>ֆացլյան<br/>...  | |
 | gobelyan | գոբելյան<br/>գոբիլյան<br/>գոպելյան<br/>...  | **կոպելյան** |
 
