@@ -39,7 +39,7 @@ Our initial task is canonicalisation: **given an informal child form and a targe
 
 Our initial target languages are **Russian**, **Armenian**, **Persian** and **Greek**, and our source script is generally the Latin alphabet.
 
-We evaluate the output with simple exact-match **accuracy** and **character error rate (CAR)**, based on [word error rate](https://en.wikipedia.org/wiki/Word_error_rate) but adapted for character-level sequence generation tasks.
+We evaluate the output with simple exact-match **accuracy** and **character error rate (CER)**, based on [word error rate](https://en.wikipedia.org/wiki/Word_error_rate) (WER) but adapted for character-level sequence generation tasks.
 
 We could also formulate the task in reverse: given a canonical form, generate child forms.
 
@@ -149,15 +149,15 @@ As benchmarks we considered the transliteration module of [Polyglot](https://pyp
 
 ## Results
 
-We compared [WER (Word Error Rate)](https://en.wikipedia.org/wiki/Word_error_rate) between Polyglot, and our seq2seq and tensor2tensor implementations on the given parallel corpora.
+We compared **[character error rate (CER)](https://en.wikipedia.org/wiki/Word_error_rate)** between Polyglot, and our seq2seq and tensor2tensor implementations on the given parallel corpora.
 
-The results of the [transliterate](https://pypi.org/project/transliterate/) library are not shown because they were not competitive at all.
+The results of the [transliterate](https://pypi.org/project/transliterate/) library baseline are not shown because they were not competitive at all.
 
-Interestingly, the seq2seq system consistently performed the best. The only exception is Latn ➜ el-Grek, where seq2seq and tensor2tensor had equal results.  Moreover, the tensor2tensor model failed to train on the Persian dataset.
+Interestingly, the **seq2seq model consistently performed better** than the tensor2tensor model. The only exception is Latn ➜ el-Grek, where seq2seq and tensor2tensor had equal results.  Moreover, the tensor2tensor model failed to train on the Persian dataset.
 
 **TODO: add exact match accuracy**
 
-| Dataset  | Polyglot| Seq2Seq  | Tensor2Tensor | 
+| Target language  | Polyglot baseline | seq2Seq  | tensor2Tensor | 
 | :-------------: | :-------------: | :-------------: | :-------------: |
 | hy-Armn  | 0.64  | **0.46**  | 0.47  |
 | ru-Cyrl  | 0.56  | **0.24**  | 0.37  |
