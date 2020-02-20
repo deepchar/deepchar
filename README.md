@@ -37,8 +37,9 @@ Our initial task is canonicalisation: **given an informal child form and a targe
 
 ```Ալեգրի``` + ```pt-Latn```➜  **```Alegre```**
 
+Our initial target languages are **Russian**, **Armenian**, **Persian** and **Greek**.
 
-We can also formulate the task in reverse: given a canonical form, generate child forms.
+We could also formulate the task in reverse: given a canonical form, generate child forms.
 
 
 ### Types of name transliteration
