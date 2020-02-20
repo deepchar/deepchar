@@ -6,9 +6,16 @@ The **[transliteration](https://deepchar.github.io/)** for translation of **[nam
 
 Transliteration of named entities is useful in search engines, especially within social networks, and for legal discovery, criminal investigations and financial or governmental applications.  The goal is to find all possible versions of name, in all alphabets. 
 
-Many names may have multiple correct transliterations within the same alphabet. So to find a friend's page on Facebook it's good to have at least few choices for a given name.
+The same name referring to the same person or other entity could be indexed or queried in multiple forms:
 
-```Latn: Tagoush```➜```Armn: Թագուշ, Տագուշ, Թաքուշ```  
+**```Ершов```**, ```Yershov```, ```Ershov```
+
+**```Թագուշ```**, ```Tagoush```, ```Tagoosh```, ```Tagush```, ```Tagusch```, ```Taguš```, ```Тагуш```...
+
+These forms are not standardised, but they are also not typos or misspellings.  Certain forms do not occur organically: ```*Tagus```, ```*Тагусх*```.
+
+A human literate in the relevant languages and alphabets generally maps them back to the canonical form correctly and effortlessly, subconsciouly resolving ambiguity and discarding invalid candidates: ```*Թագոուշ```, ```*Տագուշ```, ```*Թաքուշ```.
+
 ```Latn: Keropian```➜```Armn: Կերոպյան, Քերոբյան, Քերոպյան```  
 ```Latn: Roerig```➜```Armn: Ռորիգ, Ռյորիգ, Ռուրիգ```  
 ```Latn: Alegre```➜```Armn: Ալեգրի, Ալեգռի, էլեգրի```  
@@ -16,7 +23,20 @@ Many names may have multiple correct transliterations within the same alphabet. 
 ```Latn: Savostyanov```➜```Cyrl: Савостьянов, Савостьянов, Савостианов```  
 ```Latn: Kruglolesskoye```➜```Cyrl: Круглолесское, Круглолеский, Круглолеской```  
 
-Our model does a kind of query expansion. It generates all the possible "child" forms from the canocical one and outputs top three candidates.
+Our initial task is canonicalisation: **given an informal child form and a target script, generate the canonical form.**
+
+```Yershov``` + ```Cyrl``` ➜ **```Ершов```**  
+
+```Yershov``` + ```Cyrl``` ➜ **```Ершов```**  
+
+```Tagoush``` + ```Armn``` ➜  **```Թագուշ```**
+
+```Tagoush``` + ```Armn``` ➜  **```Թագուշ```**
+
+```Tagoush``` + ```Cyrl``` ➜  **```Тагуш```**
+
+We can also formulate the task in reverse: given a canonical form, generate the child forms.
+
 
 ### Types of name transliteration
 
