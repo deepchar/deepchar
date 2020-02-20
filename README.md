@@ -159,13 +159,20 @@ Interestingly, the seq2seq system consistently performed the best. The only exce
 
 ## Sample outputs
 
-For each model, we show a few examples where the model did well - the top candidate was the correct output - and a few where the model did poorly - the correct output was not even among the top 3 candidates - and in that case we also include the actual correct output.
+For each target language and thus for each model, we show a few examples where the model did well - the top candidate was the correct output - and a few where the model did poorly - the correct output was not even among the top 3 candidates - and in that case we also include the actual correct output.
 
-| Source text | Model target language | Model outputs | Correct output |
+#### hy-Armn
+
+| Source text | Model outputs | Correct output |
 | :-------------: | :-------------: | :-------------: | :-------------: |
-| fazlian | hy-Armn| **ֆազլյան**<br/>ֆասլյան<br/>ֆացլյան<br/>...  | |
-| gobelyan | hy-Armn  | գոբելյան<br/>գոբիլյան<br/>գոպելյան<br/>...  | **կոպելյան** |
+| fazlian | **ֆազլյան**<br/>ֆասլյան<br/>ֆացլյան<br/>...  | |
+| gobelyan | գոբելյան<br/>գոբիլյան<br/>գոպելյան<br/>...  | **կոպելյան** |
 
+...
+
+#### ru-Cyrl
+
+...
 
 **TODO: reformat the rest of the table as above**
 
