@@ -17,7 +17,7 @@ The same name referring to the same person or other entity could be indexed or q
 
 These forms are not standardised, but they are also not typos or misspellings.  Certain forms do not occur organically: ```*Tagus```, ```*Тагусх*```.
 
-A human literate in the relevant languages and alphabets generally maps them back to the canonical form correctly and effortlessly, subconsciouly resolving ambiguity and discarding invalid candidates: ``` Ершев```, ```Ерщов```, ```*Թագոուշ```, ```*Տագուշ```, ```*Թաքուշ```. 
+A human literate in the relevant languages and alphabets generally maps them back to the canonical form correctly and effortlessly, subconsciouly resolving ambiguity and discarding invalid candidates: ```*Ершев```, ```*Ерщов```, ```*Թագոուշ```, ```*Տագուշ```, ```*Թաքուշ```. 
 
 Our initial task is canonicalisation: **given an informal child form and a target script, generate the canonical form.**
 
