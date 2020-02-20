@@ -37,7 +37,7 @@ Our initial task is canonicalisation: **given an informal child form and a targe
 
 ```Ալեգրի``` + ```pt-Latn```➜  **```Alegre```**
 
-Our initial target languages are **Russian**, **Armenian**, **Persian** and **Greek**.
+Our initial target languages are **Russian**, **Armenian**, **Persian** and **Greek**, and our source script is generally the Latin alphabet.
 
 We evaluate the output with simple exact-match **accuracy** and **character error rate (CAR)**, based on [word error rate](https://en.wikipedia.org/wiki/Word_error_rate) but adapted for character-level sequence generation tasks.
 
