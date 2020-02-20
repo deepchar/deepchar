@@ -8,20 +8,16 @@ Transliteration of named entities is useful in search engines, especially within
 
 The same name referring to the same person or other entity could be indexed or queried in multiple forms:
 
-**```Ершов```**, ```Yershov```, ```Ershov```
+**```Ершов```**, ```Yershov```, ```Ershov```, ...
 
-**```Թագուշ```**, ```Tagoush```, ```Tagoosh```, ```Tagush```, ```Tagusch```, ```Taguš```, ```Тагуш```...
+**```Թագուշ```**, ```Tagoush```, ```Tagoosh```, ```Tagush```, ```Tagusch```, ```Taguš```, ```Тагуш```, ...
+
+**```Alegre```**, ```Алегри```, ```Ալեգրի```, ```Ալեգրե```, ```آلگری```, ```Αλέγκρε```...
+
 
 These forms are not standardised, but they are also not typos or misspellings.  Certain forms do not occur organically: ```*Tagus```, ```*Тагусх*```.
 
-A human literate in the relevant languages and alphabets generally maps them back to the canonical form correctly and effortlessly, subconsciouly resolving ambiguity and discarding invalid candidates: ```*Թագոուշ```, ```*Տագուշ```, ```*Թաքուշ```.
-
-```Latn: Keropian```➜```Armn: Կերոպյան, Քերոբյան, Քերոպյան```  
-```Latn: Roerig```➜```Armn: Ռորիգ, Ռյորիգ, Ռուրիգ```  
-```Latn: Alegre```➜```Armn: Ալեգրի, Ալեգռի, էլեգրի```  
-```Latn: Yershov```➜```Cyrl: Ершов, Ершев, Ерщов```  
-```Latn: Savostyanov```➜```Cyrl: Савостьянов, Савостьянов, Савостианов```  
-```Latn: Kruglolesskoye```➜```Cyrl: Круглолесское, Круглолеский, Круглолеской```  
+A human literate in the relevant languages and alphabets generally maps them back to the canonical form correctly and effortlessly, subconsciouly resolving ambiguity and discarding invalid candidates: ``` Ершев```, ```Ерщов```, ```*Թագոուշ```, ```*Տագուշ```, ```*Թաքուշ```. 
 
 Our initial task is canonicalisation: **given an informal child form and a target script, generate the canonical form.**
 
@@ -35,14 +31,21 @@ Our initial task is canonicalisation: **given an informal child form and a targe
 
 ```Tagoush``` + ```Cyrl``` ➜  **```Тагуш```**
 
-We can also formulate the task in reverse: given a canonical form, generate the child forms.
+```Алегри``` + ```Latn```➜  **```Alegre```**
+
+```Ալեգրի``` + ```Latn```➜  **```Alegre```**
+
+
+We can also formulate the task in reverse: given a canonical form, generate child forms.
 
 
 ### Types of name transliteration
 
-The canonical cases are fairly simple.
+Firstly we should consider the processes by which canonical forms are converted into their various child forms.
 
-````Armn: Հովիկ Աբրահամյան```` ➜ ````Latn: en: Hovik Abrahamyan, Hovik Abrahamian, Hovig Abrahamyan````  
+Many cases are fairly simple.
+
+````Armn: Հովիկ Աբրահամյան```` ➜ ````Latn: en: Hovik Abrahamyan, pl: Hovik Abrahamian, de: Hovig Abrahamyan````  
 ````Armn: Հովիկ Աբրահամյան```` ➜ ````Cyrl: ru:Овик Абраамян, uk: Овік Абрамян````  
 ````Armn: Հրազդան```` ➜ ````Latn: en: Hrazdan````  
 ````Armn: Հրազդան```` ➜ ````Cyrl: ru: Раздан````  
@@ -51,13 +54,14 @@ The canonical cases are fairly simple.
 
 Some names can have dozens of versions when transliterated into another script.
 
-````Armn: Շողիկ Հովհաննեսի Ցոլակյան```` ➜ ````Latn: Shoghik Hovhannes Tsolakyan, Shokhik Hovhanes Tsolakian, Shoghig Hovhaness Tzolakyan````  
+````Armn: Շողիկ Հովհաննեսի Ցոլակյան```` ➜ ````Latn: Shoghik Hovhannes Tsolakyan, Shokhik Hovhanes Tsolakian, Shoghig Hovhaness Tzolakyan````
 
-There are of course multiple languages per script.
+There are of course multiple languages per script, and some of the various is due to the specific target language.
+
+````Armn: Շողիկ Հովհաննեսի Ցոլակյան```` ➜ ````Latn: pl: Szochik Hovhaness Colakian````
 
 ````Armn: Հովիկ Աբրահամյան```` ➜ ````Latn: pl: Howik Abrahamian, de: Howik Abrahamjan````  
 ````Armn: Սերժ Սարգսյան```` ➜ ````Latn: en: Serzh Sargsyan, fr: Serge Sarkissian, hr: Serž Sargsjan, nl: Serzj Sarkisian````  
-
 
 ````Latn: John Smith```` ➜ ````Armn: hy: Ջոն Սմիթ````  
 ````Latn: John Smith```` ➜ ````Cyrl: ru: Джон Смит, sr: Џон Смит, uk: Джон Сміт````  
@@ -69,7 +73,8 @@ There are of course multiple languages per script.
 
 #### Multiple conversions
 
-Quite often, a name could be repeatedly transliterated.
+Quite often, a name could be repeatedly transliterated:
+
 ````Armn: Հովիկ Աբրահամյան```` ➜  ````Cyrl: ru: Овик Абраамян```` ➜ ````Latn: en: Ovik Abramyan````  
 ````Armn: Հրազդան```` ➜ ````Cyrl: Раздан```` ➜ ````Latn: Razdan````  
 ````Latn: Howard Hughes```` ➜ ````Cyrl: Говард Хьюз```` ➜ ````Armn: Գովարդ Խյուզ````  
@@ -79,7 +84,6 @@ It could even come back into the original script mangled.
 ````Latn: Howard Hughes```` ➜ ````Cyrl: ru: Говард Хьюз```` ➜ ````Latn: Govard Khyuz````  
 ````Latn: Charles Aznavour```` ➜ ````Cyrl: ru: Шарль Азнавур```` ➜ ````Latn: Sharl Aznavur````  
 ````Armn: Հասմիկ Կուրղինյան```` ➜ ````Cyrl: ru: Асмик Кургинян```` ➜ ````Armn: Ասմիկ Կուրգինյան````   
-
 
 
 #### Within alphabets
