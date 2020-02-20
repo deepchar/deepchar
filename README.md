@@ -143,10 +143,11 @@ Here are three examples for each transliteration task (Latn ➜ hy-Armn, Latn �
 | Latn ➜ el-Grek  | kioussis  | κιούσης  | κιούσης<br/>κιούσσης<br/>κιούσις  |
 | Latn ➜ el-Grek  | papastathopoulos  | παπασταθόπουλος  | παπασταθόπουλος<br/>παπασθαθόπουλος<br/>παπασταθώπουλος  |
 | Latn ➜ el-Grek  | denzel  | ντένζελ  | ντένζελ<br/>ντένσελ<br/>ντάνζελ  |
-| Latn ➜ fa-Arab  | momayez  | ممیز  | ممیز<br/>ممیظ<br/> معمیز  |
+| Latn ➜ fa-Arab  | momayez  | ممیز  | ممیز<br/>ممیظ<br/>معمیز  |
 | Latn ➜ fa-Arab  | adineh  | آدینه  | آدینه<br/>ادینه<br/>آدینیه  |
 
-Bad examples
+**Bad examples** 
+Give an explanation to errors and point future directions of work
 
 | Task  | Source | Target  | 3-best | 
 | :-------------: | :-------------: | :-------------: | :-------------: |
@@ -159,6 +160,9 @@ Bad examples
 | Latn ➜ el-Grek  | nissiotis  | νησιώτης  | νισιώτης<br/>νισσιώτης<br/>νυσιώτης  |
 | Latn ➜ el-Grek  | dallas  | ντάλας  | ντάλλας<br/>ντέιλας<br/>ντόλας  |
 | Latn ➜ el-Grek  | håkan  | χόκαν  | χάκαν<br/>χακάν<br/>χέκαν  |
+| Latn ➜ fa-Arab  | ereyahi  | اریاهی  | الریاحی<br/>اریهای<br/>اریهی  |
+| Latn ➜ fa-Arab  | ligt  | لیگت  | لیخت<br/>لیجت<br/>لیگ  |
+| Latn ➜ fa-Arab  | entezam  | 	انتزام  | انتظام<br/>انتجام<br/>انتزم  |
 
 ## Future work
 
