@@ -39,6 +39,8 @@ Our initial task is canonicalisation: **given an informal child form and a targe
 
 Our initial target languages are **Russian**, **Armenian**, **Persian** and **Greek**.
 
+We evaluate the output with simple exact-match **accuracy** and **character error rate (CAR)**, based on [word error rate](https://en.wikipedia.org/wiki/Word_error_rate) but adapted for character-level sequence generation tasks.
+
 We could also formulate the task in reverse: given a canonical form, generate child forms.
 
 
@@ -137,10 +139,13 @@ We assumed that the pronunciation of a last name is independent of the previous 
 
 The data in the Latin script included not just English but other European languages.
 
-## Benchmarks
+## Baselines
 
 As benchmarks we considered the transliteration module of [Polyglot](https://pypi.org/project/polyglot/) and the bi-directional transliteration library [transliterate](https://pypi.org/project/transliterate/).
 
+## Training
+
+**TODO: describe hardware, training time, hyperparams**
 
 ## Results
 
@@ -149,6 +154,8 @@ We compared [WER (Word Error Rate)](https://en.wikipedia.org/wiki/Word_error_rat
 The results of the [transliterate](https://pypi.org/project/transliterate/) library are not shown because they were not competitive at all.
 
 Interestingly, the seq2seq system consistently performed the best. The only exception is Latn ➜ el-Grek, where seq2seq and tensor2tensor had equal results.  Moreover, the tensor2tensor model failed to train on the Persian dataset.
+
+**TODO: add exact match accuracy**
 
 | Dataset  | Polyglot| Seq2Seq  | Tensor2Tensor | 
 | :-------------: | :-------------: | :-------------: | :-------------: |
@@ -209,6 +216,9 @@ Creating models for different combination of source and target languages, i.e. L
 
 #### More script types
 Creating models for scripts that use ideograms, syllabaries, such as Chinese, Japanese and Korean, or often omit vowels, such as Hebrew or Arabic.
+
+#### Learning curve
+Test and graph how dataset size correlates with accuracy
 
 #### Quality and confidence
 Research how model errors and quality correlate with token frequency and length.
