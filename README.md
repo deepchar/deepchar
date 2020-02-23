@@ -219,23 +219,6 @@ For each target language and thus for each model, we show a few examples where t
 | ligt  | لیگت<br/>لیجت<br/>لیگ<br/>  | **لیخت** |
 | entezam  | انتزام<br/>انتجام<br/>انتزم<br/>  | **انتظام** |
 
-
-...
-
-**TODO: reformat the rest of the table as above**
-
-| Target language  | Source text | Target  | Model | 
-| :-------------: | :-------------: | :-------------: | :-------------: |
-
-| fa-Arab  | adineh  | آدینه  | آدینه<br/>ادینه<br/>آدینیه  |
-| ru-Cyrl  | suzdal  | суздаль  | суздал<br/>сюздаль<br/>сюздал  |
-| ru-Cyrl  | fargère  | фаржер  | фарджер<br/>фаргер<br/>фарджир  |
-| ru-Cyrl  | wolkenstain  | волькенштейн  | волкенштайн<br/>волькенштайн<br/>уолкенштайн  |
-| fa-Arab  | ereyahi  | اریاهی  | الریاحی<br/>اریهای<br/>اریهی  |
-| fa-Arab  | ligt  | لیگت  | لیخت<br/>لیجت<br/>لیگ  |
-| fa-Arab  | entezam  | 	انتزام  | انتظام<br/>انتجام<br/>انتزم  |
-
-
 ## Future work
 
 #### More directions
