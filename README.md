@@ -215,6 +215,7 @@ For each target language and thus for each model, we show a few examples where t
 | :-------------: | :-------------: | :-------------: |
 | momayez  | **ممیز**<br/>ممیظ<br/>معمیز<br/>  | **ممیز** |
 | adineh  | **آدینه**<br/>ادینه<br/>آدینیه<br/>  |**آدینه** |
+| appleby  | **اپلبی**<br/>آپلبی<br/>اپلیبی<br/>  | **اپلبی** |
 | ereyahi  | اریاهی<br/>اریهای<br/>اریهی<br/>  | **الریاحی** |
 | ligt  | لیگت<br/>لیجت<br/>لیگ<br/>  | **لیخت** |
 | entezam  | انتزام<br/>انتجام<br/>انتزم<br/>  | **انتظام** |
