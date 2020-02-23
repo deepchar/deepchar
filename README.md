@@ -214,6 +214,11 @@ For each target language and thus for each model, we show a few examples where t
 | Source text | Model outputs | Correct output |
 | :-------------: | :-------------: | :-------------: |
 | momayez  | **ممیز**<br/>ممیظ<br/>معمیز<br/>  | **ممیز** |
+| adineh  | **آدینه**<br/>ادینه<br/>آدینیه<br/>  |**آدینه** |
+| ereyahi  | اریاهی<br/>اریهای<br/>اریهی<br/>  | **الریاحی** |
+| ligt  | لیگت<br/>لیجت<br/>لیگ<br/>  | **لیخت** |
+| entezam  | انتزام<br/>انتجام<br/>انتزم<br/>  | **انتظام** |
+
 
 ...
 
@@ -221,10 +226,7 @@ For each target language and thus for each model, we show a few examples where t
 
 | Target language  | Source text | Target  | Model | 
 | :-------------: | :-------------: | :-------------: | :-------------: |
-| ru-Cyrl  | afanasyeva  | афанасьева  | афанасьева<br/>афанасиева<br/>афанасева  |
-| ru-Cyrl  | vishnevskiĭ  | вишневский  | вишневский<br/>вышневский<br/>вишнёвский  |
-| ru-Cyrl  | edward  | эдвард  | эдвард<br/>эдуард<br/>эдуорд  |
-| fa-Arab  | momayez  | ممیز  | ممیز<br/>ممیظ<br/>معمیز  |
+
 | fa-Arab  | adineh  | آدینه  | آدینه<br/>ادینه<br/>آدینیه  |
 | ru-Cyrl  | suzdal  | суздаль  | суздал<br/>сюздаль<br/>сюздал  |
 | ru-Cyrl  | fargère  | фаржер  | фарджер<br/>фаргер<br/>фарджир  |
