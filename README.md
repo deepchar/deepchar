@@ -221,9 +221,6 @@ For each target language and thus for each model, we show a few examples where t
 
 | Target language  | Source text | Target  | Model | 
 | :-------------: | :-------------: | :-------------: | :-------------: |
-| hy-Armn  | fazlian  | **ֆազլյան**  | ֆազլյան<br/>ֆասլյան<br/>ֆացլյան  |
-| hy-Armn  | chukhajyan  | **չուխաջյան**  | չուխաջյան<br/>չուխայան<br/>ճուխաջյան  |
-| hy-Armn  | breslin  | **բրեսլին**  | բրեսլին<br/>բրեզլին<br/>բրեսլեն  |
 | ru-Cyrl  | afanasyeva  | афанасьева  | афанасьева<br/>афанасиева<br/>афанасева  |
 | ru-Cyrl  | vishnevskiĭ  | вишневский  | вишневский<br/>вышневский<br/>вишнёвский  |
 | ru-Cyrl  | edward  | эдвард  | эдвард<br/>эдуард<br/>эдуорд  |
