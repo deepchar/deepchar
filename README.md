@@ -213,7 +213,7 @@ For each target language and thus for each model, we show a few examples where t
 
 | Source text | Model outputs | Correct output |
 | :-------------: | :-------------: | :-------------: |
-
+| momayez  | **ممیز**<br/>ممیظ<br/>معمیز<br/>  | **ممیز** |
 
 ...
 
