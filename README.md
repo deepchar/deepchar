@@ -57,7 +57,7 @@ Many cases are fairly simple.
 ```Հովիկ Աբրահամյան``` ➜ ```de-Latn: Hovig Abrahamyan```  
 ```Հովիկ Աբրահամյան``` ➜ ```ru-Cyrl: Овик Абраамян```  
 ```Հովիկ Աբրահամյան``` ➜ ```uk-Cyrl: Овік Абрамян```  
-```Հրազդան``` ➜ ```en-Latn: en: Hrazdan```  
+```Հրազդան``` ➜ ```en-Latn: Hrazdan```  
 ```Հրազդան``` ➜ ```ru-Cyrl: Раздан```  
 ```Tom Collins``` ➜ ```ru-Cyrl: Том Коллинз```  
 
@@ -67,33 +67,38 @@ Some names can have dozens of versions when transliterated into another language
 
 There are of course multiple languages per script, and some of the various is due to the specific target language.
 
-````Armn: Շողիկ Հովհաննեսի Ցոլակյան```` ➜ ````Latn: pl: Szochik Hovhaness Colakian````
+````Armn: Շողիկ Հովհաննեսի Ցոլակյան```` ➜ ````pl-Latn: Szochik Hovhaness Colakian````
 
-````Armn: Հովիկ Աբրահամյան```` ➜ ````Latn: pl: Howik Abrahamian, de: Howik Abrahamjan````  
-````Armn: Սերժ Սարգսյան```` ➜ ````Latn: en: Serzh Sargsyan, fr: Serge Sarkissian, hr: Serž Sargsjan, nl: Serzj Sarkisian````  
+````Armn: Հովիկ Աբրահամյան```` ➜ ````pl-Latn: Howik Abrahamian````  
+````Armn: Հովիկ Աբրահամյան```` ➜ ````de-Latn: Howik Abrahamjan````  
 
-````Latn: John Smith```` ➜ ````Armn: hy: Ջոն Սմիթ````  
-````Latn: John Smith```` ➜ ````Cyrl: ru: Джон Смит, sr: Џон Смит, uk: Джон Сміт````  
-````Latn: John Smith```` ➜ ````Arab: ar:  جون سميث, fa: جان اسمیت````    
+````Armn: Սերժ Սարգսյան```` ➜ ````en-Latn: Serzh Sargsyan````  
+````Armn: Սերժ Սարգսյան```` ➜ ````fr-Latn: Serge Sarkissian````  
+````Armn: Սերժ Սարգսյան```` ➜ ````hr-Latn: Serž Sargsjan````  
+````Armn: Սերժ Սարգսյան```` ➜ ````nl-Latn: Serzj Sarkisian````  
+
+````Latn: John Smith```` ➜ ````hy-Armn: Ջոն Սմիթ````  
+````Latn: John Smith```` ➜ ````ru-Cyrl: Джон Смит, sr-Cyrl: Џон Смит, uk-Cyrl: Джон Сміт````  
+````Latn: John Smith```` ➜ ````ar-Arab:  جون سميث, fa-Arab: جان اسمیت````    
   
-````Latn: SnapChat```` ➜ ````Armn: hy: Սնապչատ````  
-````Latn: SnapChat```` ➜ ````Cyrl: ru: Снепчат, bg: Снапчат````  
-````Latn: SnapChat```` ➜ ````Latn: tr: Snapçat, pl: Snapczat````  
+````Latn: SnapChat```` ➜ ````hy-Armn: Սնապչատ````  
+````Latn: SnapChat```` ➜ ````ru-Cyrl: Снепчат, bg-Cyrl: Снапчат````  
+````Latn: SnapChat```` ➜ ````tr-Latn: Snapçat, pl-Latn: Snapczat````  
 
 #### Multiple conversions
 
 Quite often, a name could be repeatedly transliterated:
 
-````Հովիկ Աբրահամյան```` ➜  ````ru-Cyrl: Овик Абраамян```` ➜ ````Latn: en: Ovik Abramyan````  
+````Հովիկ Աբրահամյան```` ➜  ````ru-Cyrl: Овик Абраамян```` ➜ ````en-Latn: Ovik Abramyan````  
 ````Հրազդան```` ➜ ````ru-Cyrl: Раздан```` ➜ ````en-Latn: Razdan````  
 ````Howard Hughes```` ➜ ````ru-Cyrl: Говард Хьюз```` ➜ ````hy-Armn: Գովարդ Խյուզ````  
 ```Шостакович``` ➜ ```it-Latn: Šostakovič```  ➜ ```en-Latn: Sostakovic```
 
 It could even come back into the original script mangled.
 
-````Latn: Howard Hughes```` ➜ ````ru-Cyrl: ru: Говард Хьюз```` ➜ ````en-Latn: Govard Khyuz````  
-````Latn: Charles Aznavour```` ➜ ````ru-Cyrl: ru: Шарль Азнавур```` ➜ ````en-Latn: Sharl Aznavur````  
-````Armn: Հասմիկ Կուրղինյան```` ➜ ````ru-Cyrl: ru: Асмик Кургинян```` ➜ ````hy-Armn: Ասմիկ Կուրգինյան````   
+````Latn: Howard Hughes```` ➜ ````ru-Cyrl: Говард Хьюз```` ➜ ````en-Latn: Govard Khyuz````  
+````Latn: Charles Aznavour```` ➜ ````ru-Cyrl: Шарль Азнавур```` ➜ ````en-Latn: Sharl Aznavur````  
+````Armn: Հասմիկ Կուրղինյան```` ➜ ````ru-Cyrl: Асмик Кургинян```` ➜ ````hy-Armn: Ասմիկ Կուրգինյան````   
 
 
 #### Within alphabets
@@ -113,9 +118,9 @@ Umlaut decomposition is specific to German.  In many other orthographic traditio
 
 Some Latin orthographies nativize according to pronunciation, not unlike non-Latin alphabet orthographies.
 
-````George Bush```` ➜ ````tr: Corc Buş````  
-````George Bush```` ➜ ````de: Schorsch Busch````  
-````George Bush```` ➜ ````sq: Xhorxh Bysh````  
+````George Bush```` ➜ ````tr-Latn: Corc Buş````  
+````George Bush```` ➜ ````de-Latn: Schorsch Busch````  
+````George Bush```` ➜ ````sq-Latn: Xhorxh Bysh````  
 
 
 ## Our approach
