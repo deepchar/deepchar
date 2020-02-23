@@ -180,14 +180,41 @@ For each target language and thus for each model, we show a few examples where t
 
 | Source text | Model outputs | Correct output |
 | :-------------: | :-------------: | :-------------: |
-| fazlian | **ֆազլյան**<br/>ֆասլյան<br/>ֆացլյան<br/>...  | |
-| gobelyan | գոբելյան<br/>գոբիլյան<br/>գոպելյան<br/>...  | **կոպելյան** |
-
-...
+| fazlian | **ֆազլյան**<br/>ֆասլյան<br/>ֆացլյան<br/>  | **ֆազլյան** |
+| chukhajyan | **չուխաջյան**<br/>չուխայան<br/>ճուխաջյան  | **չուխաջյան** |  
+| breslin  | **բրեսլին**<br/>բրեզլին<br/>բրեսլեն  | **բրեսլին** |
+| gobelyan | գոբելյան<br/>գոբիլյան<br/>գոպելյան<br/>  | **կոպելյան** |
+| bizet  | բիզեթ<br/>բիզետ<br/>բիսեթ  |**բիզե** |
+| chkheidze  | չկխեյձե<br/>չկխիձե<br/>չխայձե  | **չխեիձե** |
 
 #### ru-Cyrl
 
-...
+| Source text | Model outputs | Correct output |
+| :-------------: | :-------------: | :-------------: |
+| afanasyeva  | **афанасьева**<br/>афанасиева<br/>афанасева  | **афанасьева** |
+| vishnevskiĭ  | **вишневский**<br/>вышневский<br/>вишнёвский  | **вишневский** |
+| edward  | **эдвард**<br/>эдуард<br/>эдуорд  | **эдвард** |
+| suzdal  | суздал<br/>сюздаль<br/>сюздал  | **суздаль** |
+| fargère  | фарджер<br/>фаргер<br/>фарджир  | **фаржер** |
+| wolkenstain  | волкенштайн<br/>волькенштайн<br/>уолкенштайн  | **волькенштейн** |
+
+#### el-Grek
+
+| Source text | Model outputs | Correct output |
+| :-------------: | :-------------: | :-------------: |
+| kioussis  | **κιούσης**<br/>κιούσσης<br/>κιούσις  | **κιούσης** |
+| papastathopoulos  | **παπασταθόπουλος**<br/>παπασθαθόπουλος<br/>παπασταθώπουλος  | **παπασταθόπουλος** |
+| denzel  | **ντένζελ**<br/>ντένσελ<br/>ντάνζελ  | **ντένζελ** |
+| nissiotis  | νισιώτης<br/>νισσιώτης<br/>νυσιώτης  | **νησιώτης** |
+| dallas  | ντάλλας<br/>ντέιλας<br/>ντόλας  | **ντάλας** |
+| håkan  | χάκαν<br/>χακάν<br/>χέκαν  | **χόκαν**|
+
+#### fa-Arab
+
+| Source text | Model outputs | Correct output |
+| :-------------: | :-------------: | :-------------: |
+| momayez  | **ممیز**<br/>ممیظ<br/>معمیز** | ممیز** |
+| adineh  | آدینه  | آدینه<br/>ادینه<br/>آدینیه  |
 
 **TODO: reformat the rest of the table as above**
 
@@ -216,6 +243,9 @@ For each target language and thus for each model, we show a few examples where t
 | fa-Arab  | ereyahi  | اریاهی  | الریاحی<br/>اریهای<br/>اریهی  |
 | fa-Arab  | ligt  | لیگت  | لیخت<br/>لیجت<br/>لیگ  |
 | fa-Arab  | entezam  | 	انتزام  | انتظام<br/>انتجام<br/>انتزم  |
+
+| **ممیز**<br/>ممیظ<br/>معمیز** | ممیز** |  
+
 
 ## Future work
 
