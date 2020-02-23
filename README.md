@@ -25,11 +25,11 @@ Our initial task is canonicalisation: **given an informal child form and a targe
 
 ```Yershov``` + ```ru-Cyrl``` ➜ **```Ершов```**  
 
-```Yershov``` + ```ru-Cyrl``` ➜ **```Ершов```**  
+```Ershov``` + ```ru-Cyrl``` ➜ **```Ершов```**  
 
 ```Tagoush``` + ```hy-Armn``` ➜  **```Թագուշ```**
 
-```Tagoush``` + ```hy-Armn``` ➜  **```Թագուշ```**
+```Tagush``` + ```hy-Armn``` ➜  **```Թագուշ```**
 
 ```Tagoush``` + ```ru-Cyrl``` ➜  **```Тагуш```**
 
