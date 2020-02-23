@@ -213,8 +213,9 @@ For each target language and thus for each model, we show a few examples where t
 
 | Source text | Model outputs | Correct output |
 | :-------------: | :-------------: | :-------------: |
-| momayez  | **ممیز**<br/>ممیظ<br/>معمیز** | ممیز** |
-| adineh  | آدینه  | آدینه<br/>ادینه<br/>آدینیه  |
+
+
+...
 
 **TODO: reformat the rest of the table as above**
 
@@ -223,28 +224,17 @@ For each target language and thus for each model, we show a few examples where t
 | hy-Armn  | fazlian  | **ֆազլյան**  | ֆազլյան<br/>ֆասլյան<br/>ֆացլյան  |
 | hy-Armn  | chukhajyan  | **չուխաջյան**  | չուխաջյան<br/>չուխայան<br/>ճուխաջյան  |
 | hy-Armn  | breslin  | **բրեսլին**  | բրեսլին<br/>բրեզլին<br/>բրեսլեն  |
-| hy-Armn  | gobelyan  | կոպելյան  | գոբելյան<br/>գոբիլյան<br/>գոպելյան  |
-| hy-Armn  | bizet  | բիզե  | բիզեթ<br/>բիզետ<br/>բիսեթ  |
-| hy-Armn  | chkheidze  | չխեիձե  | չկխեյձե<br/>չկխիձե<br/>չխայձե  |
 | ru-Cyrl  | afanasyeva  | афанасьева  | афанасьева<br/>афанасиева<br/>афанасева  |
 | ru-Cyrl  | vishnevskiĭ  | вишневский  | вишневский<br/>вышневский<br/>вишнёвский  |
 | ru-Cyrl  | edward  | эдвард  | эдвард<br/>эдуард<br/>эдуорд  |
-| el-Grek  | kioussis  | κιούσης  | κιούσης<br/>κιούσσης<br/>κιούσις  |
-| el-Grek  | papastathopoulos  | παπασταθόπουλος  | παπασταθόπουλος<br/>παπασθαθόπουλος<br/>παπασταθώπουλος  |
-| el-Grek  | denzel  | ντένζελ  | ντένζελ<br/>ντένσελ<br/>ντάνζελ  |
 | fa-Arab  | momayez  | ممیز  | ممیز<br/>ممیظ<br/>معمیز  |
 | fa-Arab  | adineh  | آدینه  | آدینه<br/>ادینه<br/>آدینیه  |
 | ru-Cyrl  | suzdal  | суздаль  | суздал<br/>сюздаль<br/>сюздал  |
 | ru-Cyrl  | fargère  | фаржер  | фарджер<br/>фаргер<br/>фарджир  |
 | ru-Cyrl  | wolkenstain  | волькенштейн  | волкенштайн<br/>волькенштайн<br/>уолкенштайн  |
-| el-Grek  | nissiotis  | νησιώτης  | νισιώτης<br/>νισσιώτης<br/>νυσιώτης  |
-| el-Grek  | dallas  | ντάλας  | ντάλλας<br/>ντέιλας<br/>ντόλας  |
-| el-Grek  | håkan  | χόκαν  | χάκαν<br/>χακάν<br/>χέκαν  |
 | fa-Arab  | ereyahi  | اریاهی  | الریاحی<br/>اریهای<br/>اریهی  |
 | fa-Arab  | ligt  | لیگت  | لیخت<br/>لیجت<br/>لیگ  |
 | fa-Arab  | entezam  | 	انتزام  | انتظام<br/>انتجام<br/>انتزم  |
-
-| **ممیز**<br/>ممیظ<br/>معمیز** | ممیز** |  
 
 
 ## Future work
