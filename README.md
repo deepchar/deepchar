@@ -178,18 +178,16 @@ For each target language and thus for each model, we show a few examples where t
 
 #### hy-Armn
 
-| Source text | Model outputs | Correct output |
+| Source text | Model outputs | Correct output | CER |
 | :-------------: | :-------------: | :-------------: |
-| fazlian | **ֆազլյան**<br/>ֆասլյան<br/>ֆացլյան<br/>  | **ֆազլյան** |
-| chukhajyan | **չուխաջյան**<br/>չուխայան<br/>ճուխաջյան  | **չուխաջյան** |  
-| breslin  | **բրեսլին**<br/>բրեզլին<br/>բրեսլեն  | **բրեսլին** |
-| gobelyan | գոբելյան<br/>գոբիլյան<br/>գոպելյան<br/>  | **կոպելյան** |
-| bizet  | բիզեթ<br/>բիզետ<br/>բիսեթ  |**բիզե** |
-| chkheidze  | չկխեյձե<br/>չկխիձե<br/>չխայձե  | **չխեիձե** |
+| chukhajyan | **չուխաջյան**<br/>չուխայան<br/>ճուխաջյան<br/>...  |  0<br/>1<br/>1<br/>... | 
+| okroyants | օկրոյանց<br/>**օքրոյանց**<br/>օխրոյանց<br/>...  |  | 1<br/>0<br/>1<br/>... |
+| yeray  | յերայ<br/>էրայ<br/>**երայ**<br/>...  |   0<br/>1<br/>1<br/>... | 
+| gobelyan | գոբելյան<br/>գոբիլյան<br/>գոպելյան<br/>...  | **կոպելյան** |  2<br/>3<br/>1<br/>... | 
+| bizet  | բիզեթ<br/>բիզետ<br/>բիսեթ<br/>...  |**բիզե** |  1<br/>1<br/>2<br/>... | 
+| chkheidze  | չկխեյձե<br/>չկխիձե<br/>չխայձե<br/>...  | **չխեիձե** |  2<br/>2<br/>2<br/>... | 
 
 #### ru-Cyrl
-
-<span style="color:red">some **This is Red Bold.** text</span>
 
 | Source text | Model outputs | Correct output |
 | :-------------: | :-------------: | :-------------: |
