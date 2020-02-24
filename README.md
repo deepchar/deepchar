@@ -163,7 +163,7 @@ The results of the [transliterate](https://pypi.org/project/transliterate/) libr
 
 Interestingly, the **seq2seq model consistently performed better** than the tensor2tensor model. The only exception is Latn ➜ el-Grek, where seq2seq and tensor2tensor had equal results.  Moreover, the tensor2tensor model failed to train on the Persian dataset.
 
-**TODO: add exact match accuracy**
+## CER
 
 | Target language  | Polyglot baseline | seq2Seq  | tensor2Tensor | 
 | :-------------: | :-------------: | :-------------: | :-------------: |
@@ -171,6 +171,17 @@ Interestingly, the **seq2seq model consistently performed better** than the tens
 | ru-Cyrl  | 0.56  | **0.24**  | 0.37  |
 | el-Grek  | 0.9  | **0.52** | **0.52**  |
 | fa-Arab  | -  | **0.49**  | -  |
+
+## Exact match accuracy
+
+| Target language  | Polyglot baseline | seq2Seq  | tensor2Tensor | 
+| :-------------: | :-------------: | :-------------: | :-------------: |
+| hy-Armn  | `0.0`  | **77.46%**  | 75.4%  |
+| ru-Cyrl  | `0.0`  | **90.04%**  | 77.73%  |
+| el-Grek  | `0.0`  | **73.33%** | 66.50%  |
+| fa-Arab  | `0.0`  | **73.96%**  | -  |
+
+**TODO: add exact match accuracy**
 
 ## Sample outputs
 
