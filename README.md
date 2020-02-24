@@ -172,6 +172,8 @@ Interestingly, the **seq2seq model consistently performed better** than the tens
 | el-Grek  | 0.9  | **0.52** | **0.52**  |
 | fa-Arab  | -  | **0.49**  | -  |
 
+**TODO: add exact match accuracy**
+
 ## Exact match accuracy
 
 | Target language  | Polyglot baseline | seq2Seq  | tensor2Tensor | 
@@ -180,8 +182,6 @@ Interestingly, the **seq2seq model consistently performed better** than the tens
 | ru-Cyrl  | `0.0`  | **90.04%**  | 77.73%  |
 | el-Grek  | `0.0`  | **73.33%** | 66.50%  |
 | fa-Arab  | `0.0`  | **73.96%**  | -  |
-
-**TODO: add exact match accuracy**
 
 ## Sample outputs
 
