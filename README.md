@@ -178,9 +178,9 @@ Interestingly, the **seq2seq model consistently performed better** than the tens
 
 | Target language  | Polyglot baseline | seq2Seq  | tensor2Tensor | 
 | :-------------: | :-------------: | :-------------: | :-------------: |
-| hy-Armn  | `0.0`  | **77.46%**  | 75.4%  |
-| ru-Cyrl  | `0.0`  | **90.04%**  | 77.73%  |
-| el-Grek  | `0.0`  | **73.33%** | 66.50%  |
+| hy-Armn  | 36.8%  | **77.46%**  | 75.4%  |
+| ru-Cyrl  | 44%  | **90.04%**  | 77.73%  |
+| el-Grek  | 10%  | **73.33%** | 66.50%  |
 | fa-Arab  | `0.0`  | **73.96%**  | -  |
 
 ## Sample outputs
