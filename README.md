@@ -211,14 +211,15 @@ For each target language and thus for each model, we show a few examples where t
 
 #### fa-Arab
 
-| Source text | Model outputs | Correct output |
-| :-------------: | :-------------: | :-------------: |
-| momayez  | **ممیز**<br/>ممیظ<br/>معمیز<br/>...  | **ممیز** |
-| adineh  | **آدینه**<br/>ادینه<br/>آدینیه<br/>...  |**آدینه** |
-| appleby  | **اپلبی**<br/>آپلبی<br/>اپلیبی<br/>...  | **اپلبی** |
-| ereyahi  | اریاهی<br/>اریهای<br/>اریهی<br/>...  | **الریاحی** |
-| ligt  | لیگت<br/>لیجت<br/>لیگ<br/>...  | **لیخت** |
-| entezam  | انتزام<br/>انتجام<br/>انتزم<br/>...  | **انتظام** |
+| Source text | Model outputs | Correct output | CER |
+| :-------------: | :-------------: | :-------------: | :------: |
+| momayez  | **ممیز**<br/>ممیظ<br/>معمیز<br/>...  | `ممیز`<br/> | 0<br/>1<br/>1<br/>... |
+| fourie  | فوریه<br/>**فوری**<br/>فوریا<br/>...  |`فوری`<br/> | 1<br/>0<br/>1<br/>... | 
+| o'donnell  | اودنل<br/>اودونل<br/>**اودانل**<br/>...  | `اودانل`<br/> | 1<br/>1<br/>0<br/>... | 
+| ligt  | لیگت<br/>لیجت<br/>لیگ<br/>...  | `لیخت`<br/> | 1<br/>1<br/>2<br/>... | 
+| entezam  | انتزام<br/>انتجام<br/>انتزم<br/>...  | `انتظام`<br/> | 0<br/>1<br/>1<br/>... | 
+| ereyahi  | اریاهی<br/>اریهای<br/>اریهی<br/>...  | `الریاحی`<br/> | 2<br/>3<br/>3<br/>... | 
+
 
 ## Future work
 
