@@ -179,7 +179,7 @@ For each target language and thus for each model, we show a few examples where t
 #### hy-Armn
 
 | Source text | Model outputs | Correct output | CER |
-| :-------------: | :-------------: | :-------------: |
+| :-------------: | :-------------: | :-------------: | :-------------: |
 | chukhajyan | **չուխաջյան**<br/>չուխայան<br/>ճուխաջյան<br/>...  |  0<br/>1<br/>1<br/>... | 
 | okroyants | օկրոյանց<br/>**օքրոյանց**<br/>օխրոյանց<br/>...  |  | 1<br/>0<br/>1<br/>... |
 | yeray  | յերայ<br/>էրայ<br/>**երայ**<br/>...  |   0<br/>1<br/>1<br/>... | 
