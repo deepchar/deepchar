@@ -189,6 +189,8 @@ For each target language and thus for each model, we show a few examples where t
 
 #### ru-Cyrl
 
+<span style="color:red">some **This is Red Bold.** text</span>
+
 | Source text | Model outputs | Correct output |
 | :-------------: | :-------------: | :-------------: |
 | afanasyeva  | **афанасьева**<br/>афанасиева<br/>афанасева  | **афанасьева** |
