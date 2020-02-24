@@ -203,11 +203,11 @@ For each target language and thus for each model, we show a few examples where t
 | Source text | Model outputs | Correct output | CER |
 | :-------------: | :-------------: | :-------------: | :------: |
 | kioussis  | **κιούσης**<br/>κιούσσης<br/>κιούσις<br/>...  | `κιούσης` |  0<br/>1<br/>1<br/>... |
-| papastathopoulos  | βαγέλης<br/>**βαγγέλης**<br/>βαγκέλης<br/>...  | `βαγγέλης` |  1<br/>0<br/>1<br/>... |
+| vagelis  | βαγέλης<br/>**βαγγέλης**<br/>βαγκέλης<br/>...  | `βαγγέλης` |  1<br/>0<br/>1<br/>... |
 | laguna  | λαγκούνα<br/>λαγκύνα<br/>**λαγούνα**<br/>...  | `λαγούνα` |  1<br/>1<br/>0<br/>... |
 | nissiotis  | νισιώτης<br/>νισσιώτης<br/>νυσιώτης<br/>...  | `νησιώτης` |  1<br/>2<br/>1<br/>... |
 | dallas  | ντάλλας<br/>ντέιλας<br/>ντόλας<br/>...  | `ντάλας` |  1<br/>2<br/>1<br/>... |
-| vrij  | βρίι<br/>βρίχ<br/>βρι<br/>...  | `βράι` |  0<br/>1<br/>1<br/>... |
+| mcclain  | μακλάιν<br/>μακλέν<br/>μακλέιν<br/>...  | `μακκλέιν` |  2<br/>2<br/>1<br/>... |
 
 #### fa-Arab
 
