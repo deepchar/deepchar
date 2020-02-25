@@ -169,17 +169,17 @@ Interestingly, the **seq2seq model consistently performed better** than the tens
 | :-------------: | :-------------: | :-------------: | :-------------: |
 | hy-Armn  | 0.64  | **0.46**  | 0.47  |
 | ru-Cyrl  | 0.56  | **0.24**  | 0.37  |
-| el-Grek  | 0.9  | **0.52** | **0.52**  |
+| el-Grek  | 0.89  | **0.52** | **0.52**  |
 | fa-Arab  | 0.65  | **0.49**  | -  |
 
 ## Exact match accuracy
 
 | Target language  | Polyglot baseline | seq2Seq  | tensor2Tensor | 
 | :-------------: | :-------------: | :-------------: | :-------------: |
-| hy-Armn  | 36.8%  | **77.46%**  | 75.4%  |
+| hy-Armn  | 36.84%  | **77.46%**  | 75.4%  |
 | ru-Cyrl  | 44%  | **90.04%**  | 77.73%  |
-| el-Grek  | 10%  | **73.33%** | 66.50%  |
-| fa-Arab  | 35.5%  | **73.96%**  | -  |
+| el-Grek  | 10.99%  | **73.33%** | 66.5%  |
+| fa-Arab  | 35.45%  | **73.96%**  | -  |
 
 ## Sample outputs
 
