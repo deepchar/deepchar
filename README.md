@@ -157,13 +157,13 @@ As benchmarks we considered the transliteration module of [Polyglot](https://pyp
 
 ## Results
 
-We compared **[character error rate (CER)](https://en.wikipedia.org/wiki/Word_error_rate)** between Polyglot, and our seq2seq and tensor2tensor implementations on the given parallel corpora.
+We compared **[Word error rate (WER)](https://en.wikipedia.org/wiki/Word_error_rate)** between Polyglot, and our seq2seq and tensor2tensor implementations on the given parallel corpora.
 
 The results of the [transliterate](https://pypi.org/project/transliterate/) library baseline are not shown because they were not competitive at all.
 
 Interestingly, the **seq2seq model consistently performed better** than the tensor2tensor model. The only exception is Latn ➜ el-Grek, where seq2seq and tensor2tensor had equal results.  Moreover, the tensor2tensor model failed to train on the Persian dataset.
 
-## CER
+## WER
 
 | Target language  | Polyglot baseline | seq2Seq  | tensor2Tensor | 
 | :-------------: | :-------------: | :-------------: | :-------------: |
@@ -187,7 +187,7 @@ For each target language and thus for each model, we show a few examples where t
 
 #### hy-Armn
 
-| Source text | Correct output | Model outputs | CER |
+| Source text | Correct output | Model outputs | [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) |
 | :-------------: | :-------------: | :-------------: | :------: |
 | chukhajyan | `չուխաջյան` | **չուխաջյան**<br/>չուխայան<br/>ճուխաջյան<br/>...  |  0<br/>1<br/>1<br/>... | 
 | okroyants | `օքրոյանց` | օկրոյանց<br/>**օքրոյանց**<br/>օխրոյանց<br/>...  |  1<br/>0<br/>1<br/>... |
