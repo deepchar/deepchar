@@ -222,12 +222,12 @@ For each target language and thus for each model, we show a few examples where t
 
 | Source text | Model outputs | Correct output | CER |
 | :-------------: | :-------------: | :-------------: | :------: |
-| momayez  | **ممیز**<br/>ممیظ<br/>معمیز<br/>...  | `ممیز`<br/> | 0<br/>1<br/>1<br/>... |
-| fourie  | فوریه<br/>**فوری**<br/>فوریا<br/>...  |`فوری`<br/> | 1<br/>0<br/>1<br/>... | 
-| o'donnell  | اودنل<br/>اودونل<br/>**اودانل**<br/>...  | `اودانل`<br/> | 1<br/>1<br/>0<br/>... | 
-| ligt  | لیگت<br/>لیجت<br/>لیگ<br/>...  | `لیخت`<br/> | 1<br/>1<br/>2<br/>... | 
-| entezam  | انتزام<br/>انتجام<br/>انتزم<br/>...  | `انتظام`<br/> | 0<br/>1<br/>1<br/>... | 
-| ereyahi  | اریاهی<br/>اریهای<br/>اریهی<br/>...  | `الریاحی`<br/> | 2<br/>3<br/>3<br/>... | 
+| momayez  | `ممیز`<br/> | **ممیز**<br/>ممیظ<br/>معمیز<br/>...  |  0<br/>1<br/>1<br/>... |
+| fourie  | `فوری`<br/> | فوریه<br/>**فوری**<br/>فوریا<br/>...  |  1<br/>0<br/>1<br/>... | 
+| o'donnell  | `اودانل`<br/> | اودنل<br/>اودونل<br/>**اودانل**<br/>...  |  1<br/>1<br/>0<br/>... | 
+| ligt  | `لیخت`<br/> | لیگت<br/>لیجت<br/>لیگ<br/>...  |  1<br/>1<br/>2<br/>... | 
+| entezam  | `انتظام`<br/> | انتزام<br/>انتجام<br/>انتزم<br/>...  |  0<br/>1<br/>1<br/>... | 
+| ereyahi  | `الریاحی`<br/> | اریاهی<br/>اریهای<br/>اریهی<br/>...  |  2<br/>3<br/>3<br/>... | 
 
 
 ## Future work
