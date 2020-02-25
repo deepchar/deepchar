@@ -187,14 +187,14 @@ For each target language and thus for each model, we show a few examples where t
 
 #### hy-Armn
 
-| Source text | Model outputs | Correct output | CER |
+| Source text | Correct output | Model outputs | CER |
 | :-------------: | :-------------: | :-------------: | :------: |
-| chukhajyan | **չուխաջյան**<br/>չուխայան<br/>ճուխաջյան<br/>...  | `չուխաջյան` |  0<br/>1<br/>1<br/>... | 
-| okroyants | օկրոյանց<br/>**օքրոյանց**<br/>օխրոյանց<br/>...  | `օքրոյանց` | 1<br/>0<br/>1<br/>... |
-| yeray  | յերայ<br/>էրայ<br/>**երայ**<br/>...  | `երայ` | 0<br/>1<br/>1<br/>... | 
-| gobelyan | գոբելյան<br/>գոբիլյան<br/>գոպելյան<br/>...  | `կոպելյան` |  2<br/>3<br/>1<br/>... | 
-| dutroux | դուտրու<br/>դութրու<br/>դութրյու<br/>...  | `դյուտրու` |  1<br/>2<br/>3<br/>... | 
-| chkheidze  | չկխեյձե<br/>չկխիձե<br/>չխայձե<br/>...  | `չխեիձե` |  2<br/>2<br/>2<br/>... | 
+| chukhajyan | `չուխաջյան` | **չուխաջյան**<br/>չուխայան<br/>ճուխաջյան<br/>...  | 0<br/>1<br/>1<br/>... | 
+| okroyants | `օքրոյանց` | օկրոյանց<br/>**օքրոյանց**<br/>օխրոյանց<br/>...  | 1<br/>0<br/>1<br/>... |
+| yeray  | `երայ` | յերայ<br/>էրայ<br/>**երայ**<br/>...  | 0<br/>1<br/>1<br/>... | 
+| gobelyan | `կոպելյան` | գոբելյան<br/>գոբիլյան<br/>գոպելյան<br/>...  | 2<br/>3<br/>1<br/>... | 
+| dutroux | `դյուտրու` | դուտրու<br/>դութրու<br/>դութրյու<br/>...  | 1<br/>2<br/>3<br/>... | 
+| chkheidze  | `չխեիձե` | չկխեյձե<br/>չկխիձե<br/>չխայձե<br/>...  | 2<br/>2<br/>2<br/>... | 
 
 #### ru-Cyrl
 
