@@ -1,3 +1,3 @@
 # Train
 
-Train seq2seq models
+Train and evaluate seq2seq models
