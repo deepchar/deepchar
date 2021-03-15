@@ -13,6 +13,8 @@ Transliteration with sequence-to-sequence models and transfer learning
 ## Install
 *Coming soon...*
 
+To install the client
+
 ### Python
 ```bash
 pip i deepchar
@@ -34,4 +36,17 @@ const { transliterate } = require('deepchar')
 ```
 
 ---
+
+## Developing
+
+Training and serving your own deepchar system
+
+### [Generate](generate/)
+
+### [Train](train/)
+
+### [Evaluate](evaluate/)
+
+### [Serve](serve/)
+
 
