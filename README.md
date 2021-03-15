@@ -4,9 +4,10 @@ Transliteration
 
 [deepchar.github.io](https://deepchar.github.io)
 
-- Covers scripts for the top 100+ languages
-- For sentences and [for entities](/entities.md)
-- Convenient API
+- Support for many languages and scripts
+- Robustness on user-generated content and [entities](/entities.md)
+- Developer-friendly API
+- Open-source
 
 
 ## Install
@@ -38,7 +39,10 @@ const { transliterate } = require('deepchar')
 
 ## Developing
 
-Training and serving your own deepchar system - transliteration with sequence-to-sequence models and transfer learning
+Training and serving your own transliteration system
+
+- language- and script-agnostic approach
+- sequence-to-sequence models and transfer learning
 
 
 ### [Generate](generate/)
