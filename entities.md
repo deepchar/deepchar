@@ -1,4 +1,4 @@
-# deepchar/entities
+# Entities
 
 [github.com/deepchar/entities](https://github.com/deepchar/entities/) *Transliteration for translation of named entities*
 
