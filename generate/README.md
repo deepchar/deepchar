@@ -1,3 +1,3 @@
 # Generate
 
-Generate training data from monolingual data
+Generate parallel training data from monolingual target-script data
