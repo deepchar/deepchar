@@ -16,7 +16,7 @@ from deepchar import transliterate
 ...
 ```
 
-### NodeJS
+### JavaScript
 
 ```bash
 npm i deepchar
