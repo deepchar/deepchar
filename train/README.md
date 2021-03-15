@@ -1,3 +1,3 @@
 # Train
 
-Train and evaluate seq2seq models for transliteration
+Train seq2seq models for transliteration
